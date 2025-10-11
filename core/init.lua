@@ -13,10 +13,10 @@ if IsDuplicityVersion() then
         TriggerClientEvent('MrNewbsSpookySeason:Client:InitialData', _src, SharedData)
     end)
 
-    CreateThread(function()
-        Wait(5000)
-        TriggerClientEvent('MrNewbsSpookySeason:Client:InitialData', -1, SharedData)
-    end)
+    -- CreateThread(function()
+    --     Wait(5000)
+    --     TriggerClientEvent('MrNewbsSpookySeason:Client:InitialData', -1, SharedData)
+    -- end)
 else
     RegisterNetEvent("community_bridge:Client:OnPlayerUnload", function()
     end)
