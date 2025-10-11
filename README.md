@@ -37,6 +37,8 @@ Check out our other premium scripts:
 <img width="1920" height="1080" alt="218_20251011135948_1" src="https://github.com/user-attachments/assets/5206bb07-805f-43c2-bcc0-698cd23e489f" />
 <img width="1920" height="1080" alt="218_20251011140200_1" src="https://github.com/user-attachments/assets/82212ba7-6480-4952-8b5d-6dae40e284cf" />
 
+https://www.youtube.com/watch?v=hi4yJjPZ7RE
+
 ## Installation
 
 For detailed configuration options, please refer to our [documentation](https://mrnewbs-scrips.gitbook.io/guide).
