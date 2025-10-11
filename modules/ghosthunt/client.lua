@@ -35,6 +35,7 @@ function GhostClass:register()
             self.entityID = nil
         end
     })
+
     exports['pengu_digiscanner']:SetupDigiScanner(vector3(self.position.x, self.position.y, self.position.z), {
         event = "MrNewbsSpookySeason:Server:GhostHunting:ClaimLoot",
         isServer = true,
@@ -130,7 +131,8 @@ RegisterNetEvent('MrNewbsSpookySeason:Client:GhostHunting:RitualComplete', funct
 end)
 
 AddEventHandler('MrNewbsSpookySeason:Client:InitialData', function(data)
-    if not data.GhostHunts then return print("NO DATA") end
+    Wait(1000)
+    if not data.GhostHunts then return end
     local plyridentifier = Bridge.Framework.GetPlayerIdentifier()
     for k, huntData in pairs(data.GhostHunts) do
         if not huntData.claimed[plyridentifier] then

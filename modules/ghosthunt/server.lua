@@ -24,7 +24,6 @@ function GhostClass:verifyEligible(src)
     local graveCoords = vector3(self.position.x, self.position.y, self.position.z)
     local distance = #(playerCoords - graveCoords)
     local plyridentifier = Bridge.Framework.GetPlayerIdentifier(src)
-    print("Distance to ghost:", distance, "claimed:", self.claimed[plyridentifier] and "yes" or "no")
     if distance < 10 and not self.claimed[plyridentifier] then
         self.claimed[plyridentifier] = true
         self:addItemsForPlayer(src)
