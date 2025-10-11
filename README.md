@@ -1,17 +1,37 @@
-# MrNewbsSpookySeason
+# 🎃MrNewb's Spooky Season
 
---Please follow the docs available at https://mrnewbs-scrips.gitbook.io/guide
+A comprehensive Halloween-themed script featuring ghost hunting, spooky activities, and seasonal events for your FiveM server.
 
---		___  ___       _   _                  _      _____              _         _
---		|  \/  |      | \ | |                | |    /  ___|            (_)       | |
---		| .  . | _ __ |  \| |  ___ __      __| |__  \ `--.   ___  _ __  _  _ __  | |_  ___
---		| |\/| || '__|| . ` | / _ \\ \ /\ / /| '_ \  `--. \ / __|| '__|| || '_ \ | __|/ __|
---		| |  | || |   | |\  ||  __/ \ V  V / | |_) |/\__/ /| (__ | |   | || |_) || |_ \__ \
---		\_|  |_/|_|   \_| \_/ \___|  \_/\_/  |_.__/ \____/  \___||_|   |_|| .__/  \__||___/
---									          							  | |
---									          							  |_|
---
---		  Need support? Join our Discord server for help: https://discord.gg/mrnewbscripts
---		  If you need help with configuration or have any questions, please do not hesitate to ask.
---		  Docs Are Always Available At -- https://mrnewbs-scrips.gitbook.io/guide
---        For paid scripts get them here :) https://mrnewbscripts.tebex.io/
+## Documentation
+
+For detailed installation and configuration instructions, please visit our documentation:
+
+**[Official Documentation](https://mrnewbs-scrips.gitbook.io/guide)**
+
+## Support
+
+Need help? We're here to assist you!
+
+- **[Discord Server](https://discord.gg/mrnewbscripts)** - Join our community for support and updates
+
+## More Scripts
+
+Check out our other premium scripts:
+
+**[MrNewb Scripts Store](https://mrnewbscripts.tebex.io/)**
+
+## Features
+
+- Ghost hunting activities
+- Seasonal events and rewards
+- Highly configurable
+- Interactive gameplay elements
+- Event token rewards system
+
+## Installation
+
+For detailed configuration options, please refer to our [documentation](https://mrnewbs-scrips.gitbook.io/guide).
+
+---
+
+**Made with love by MrNewb Scripts**
