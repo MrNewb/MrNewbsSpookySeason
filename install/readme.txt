@@ -1,0 +1,1 @@
+--Please follow the docs available at https://mrnewbs-scrips.gitbook.io/guide

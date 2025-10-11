@@ -1,0 +1,43 @@
+{
+	"Notifications": {
+		"TrickNotification": "HA! Youve been tricked!",
+		"TreatNotification": "You found a treat!"
+	},
+	"Target": {
+		"ShopLabel": "Spooky Shop",
+		"ShopIcon": "fa-solid fa-shop",
+		"ShopColor": "orange",
+		"PumpkinLabel": "Grab Pumpkin",
+		"PumpkinIcon": "fa-solid fa-pumpkin",
+		"PumpkinColor": "orange",
+		"TrickKnockLabel": "Trick or Treat",
+		"TrickKnockIcon": "fa-solid fa-hand-fist",
+		"TrickKnockIconColor": "orange",
+		"TrickKnockBlip": "Trick or Treat"
+	},
+	"Items": {
+		"EventTokenDescription": "A token for the event store during the 2025 Halloween event."
+	},
+	"Shop": {
+		"ShopSubMenuDescription": "Buy Items",
+		"BlipLabel": "Spooky Shop",
+		"Title": "Spooky Shop",
+		"BuyItems": "Buy Items",
+		"BuyItemsIcon": "fa-solid fa-candy-cane",
+		"BuyItemsDescription": "Use your Event Tokens to get some exclusive Halloween items.",
+		"ShopIcon": "fa-solid fa-shop",
+		"ShopTitle": "Welcome to the Spooky Shop!",
+		"ShopDescription": "Welcome to the Spooky Shop! Use your Event Tokens to get some exclusive Halloween items.",
+		"BuyTitle": "Buy Items from the Spooky Shop",
+		"BuyDescription": "Select an item to purchase using your Event Tokens.",
+		"PurchaseTitle": "Purchase a %s for %s Event Tokens?",
+		"InvalidAmount": "Invalid amount entered.",
+		"PurchaseAmount": "Purchase Amount",
+		"InputPurchaseAmount": "Enter the amount you wish to purchase:",
+		"ItemNotForSale": "This item is not for sale.",
+		"NotEnoughTokens": "You do not have enough Event Tokens to complete this purchase."
+	},
+	"GhostHunt": {
+		"InteractMessage": "Free The Soul [E]"
+	}
+}
