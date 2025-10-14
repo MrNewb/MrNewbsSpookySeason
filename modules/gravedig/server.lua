@@ -63,6 +63,6 @@ end
 AddEventHandler('onResourceStart', function(resourceName)
     if GetCurrentResourceName() ~= resourceName then return end
     BuildGraveObjects()
-    SharedData = SharedData or {}
+    Wait(2000)
     SharedData.Graves = graveObj
 end)

@@ -130,11 +130,11 @@ RegisterNetEvent('MrNewbsSpookySeason:Client:GhostHunting:RitualComplete', funct
     obj:destroyRitual()
 end)
 
-AddEventHandler('MrNewbsSpookySeason:Client:InitialData', function(data)
+AddEventHandler('community_bridge:Client:OnPlayerLoaded', function()
     Wait(1000)
-    if not data.GhostHunts then return end
+    if not SharedData.GhostHunts then return end
     local plyridentifier = Bridge.Framework.GetPlayerIdentifier()
-    for k, huntData in pairs(data.GhostHunts) do
+    for k, huntData in pairs(SharedData.GhostHunts) do
         if not huntData.claimed[plyridentifier] then
             GhostClass:new(k, huntData.position, huntData.entityType, huntData.model)
         end

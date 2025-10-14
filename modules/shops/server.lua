@@ -39,6 +39,6 @@ end
 AddEventHandler('onResourceStart', function(resourceName)
     if GetCurrentResourceName() ~= resourceName then return end
     BuildShopObjects()
-    SharedData = SharedData or {}
+    Wait(2000)
     SharedData.Shops = shopObj
 end)

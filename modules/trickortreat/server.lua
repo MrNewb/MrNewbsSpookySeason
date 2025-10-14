@@ -59,7 +59,7 @@ end)
 
 function BuildTickOrTreatObjects()
     for k, treat in pairs(Config.TrickOrTreat) do
-        local id = Bridge.Ids.Random(trickOrTreatObj, 10)
+        local id = "trickortreat_" .. k
         TickOrTreatClass:new(id, treat.targetPoint, treat.entityType, treat.model, treat.pedSpawn, treat.lootTable)
     end
 end
@@ -67,6 +67,6 @@ end
 AddEventHandler('onResourceStart', function(resourceName)
     if GetCurrentResourceName() ~= resourceName then return end
     BuildTickOrTreatObjects()
-    SharedData = SharedData or {}
+    Wait(2000)
     SharedData.TrickOrTreat = trickOrTreatObj
 end)

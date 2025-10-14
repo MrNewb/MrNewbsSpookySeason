@@ -42,12 +42,10 @@ end
 AddEventHandler('onResourceStart', function(resourceName)
     if GetCurrentResourceName() ~= resourceName then return end
     BuildDecorationObjects()
-    SharedData = SharedData or {}
-    SharedData.Decorations = decorationObj or {}
 end)
 
-AddEventHandler('MrNewbsSpookySeason:Client:InitialData', function(data)
-    if source ~= 65535 then return end
+AddEventHandler('community_bridge:Client:OnPlayerLoaded', function()
+    Wait(1000)
     if not Config.Decorations then return end
     for _, decoration in pairs(Config.Decorations) do
         local id = Bridge.Ids.Random(decorationObj, 10)

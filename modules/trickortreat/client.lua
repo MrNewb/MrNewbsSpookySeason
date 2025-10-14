@@ -14,13 +14,14 @@ function TickOrTreatClass:new(id, targetPoint, entityType, model, pedSpawn)
     setmetatable(obj, self)
     trickOrTreatObj[id] = obj
     obj:register()
+
     return obj
 end
 
 function TickOrTreatClass:register()
     local options = {
         {
-            name = 'Knock ' .. self.id,
+            name = self.id,
             icon = locale("Target.TrickKnockIcon"),
             iconColor = locale("Target.TrickKnockIconColor"),
             label = locale("Target.TrickKnockLabel"),
@@ -92,12 +93,11 @@ local function destroyAll()
     end
 end
 
-AddEventHandler('MrNewbsSpookySeason:Client:InitialData', function(data)
-    if source ~= 65535 then return end
-    if not data.TrickOrTreat then return end
+AddEventHandler('community_bridge:Client:OnPlayerLoaded', function()
+    Wait(1000)
     local identifier = Bridge.Framework.GetPlayerIdentifier()
-    for k, treat in pairs(data.TrickOrTreat) do
-        if not treat.claimed[identifier] and not trickOrTreatObj[k] then
+    for k, treat in pairs(SharedData.TrickOrTreat) do
+        if not treat.claimed[identifier] then
             TickOrTreatClass:new(k, treat.targetPoint, treat.entityType, treat.model, treat.pedSpawn)
         end
     end

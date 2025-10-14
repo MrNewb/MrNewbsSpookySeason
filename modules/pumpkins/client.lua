@@ -83,11 +83,11 @@ function PumpkinClass:register()
     })
 end
 
-AddEventHandler('MrNewbsSpookySeason:Client:InitialData', function(data)
-    if source ~= 65535 then return end
-    if not data.Pumpkins then return end
+AddEventHandler('community_bridge:Client:OnPlayerLoaded', function()
+    Wait(1000)
+    if not SharedData.Pumpkins then return end
     local plyridentifier = Bridge.Framework.GetPlayerIdentifier()
-    for k, pumpkinData in pairs(data.Pumpkins) do
+    for k, pumpkinData in pairs(SharedData.Pumpkins) do
         if not pumpkinData.claimed[plyridentifier] then
             PumpkinClass:new(k, pumpkinData.position, pumpkinData.model)
         end

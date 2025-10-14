@@ -54,6 +54,6 @@ end
 AddEventHandler('onResourceStart', function(resourceName)
     if GetCurrentResourceName() ~= resourceName then return end
     BuildGhostHuntObjects()
-    SharedData = SharedData or {}
+    Wait(2000)
     SharedData.GhostHunts = ghostObj
 end)

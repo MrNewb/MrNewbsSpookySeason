@@ -1,26 +1,21 @@
 Bridge = exports.community_bridge:Bridge()
+SharedData = {}
 
 function locale(message, ...)
     return Bridge.Language.Locale(message, ...)
 end
 
 if IsDuplicityVersion() then
-
-    SharedData = SharedData or {}
-
-    RegisterNetEvent('community_bridge:Server:OnPlayerLoaded', function(src)
+    Bridge.Callback.Register('MrNewbsSpookySeason:Callback:GetInitialData', function(src)
         local _src = src
-        TriggerClientEvent('MrNewbsSpookySeason:Client:InitialData', _src, SharedData)
+        return SharedData
     end)
 
-    -- CreateThread(function()
-    --     Wait(5000)
-    --     TriggerClientEvent('MrNewbsSpookySeason:Client:InitialData', -1, SharedData)
-    -- end)
 else
-    RegisterNetEvent("community_bridge:Client:OnPlayerUnload", function()
-    end)
+    RegisterNetEvent("community_bridge:Client:OnPlayerUnload")
 
-    RegisterNetEvent('MrNewbsSpookySeason:Client:InitialData', function(data)
+    RegisterNetEvent('community_bridge:Client:OnPlayerLoaded', function()
+        SharedData = Bridge.Callback.Trigger('MrNewbsSpookySeason:Callback:GetInitialData')
+        print("All Shared Data " .. json.encode(SharedData, { indent = true }))
     end)
 end

@@ -103,11 +103,11 @@ function GraveClass:destroy()
     graveObj[self.id] = nil
 end
 
-AddEventHandler('MrNewbsSpookySeason:Client:InitialData', function(data)
-    if source ~= 65535 then return end
-    if not data.Graves then return end
+AddEventHandler('community_bridge:Client:OnPlayerLoaded', function()
+    Wait(1000)
+    if not SharedData.Graves then return end
     local plyridentifier = Bridge.Framework.GetPlayerIdentifier()
-    for k, grave in pairs(data.Graves) do
+    for k, grave in pairs(SharedData.Graves) do
         if not grave.claimed[plyridentifier] then
             GraveClass:new(k, grave.position)
         end

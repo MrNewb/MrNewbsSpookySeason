@@ -148,10 +148,10 @@ RegisterNetEvent("MrNewbsSpookySeason:Client:UsableItems:UseItem", function(id)
     })
 end)
 
-AddEventHandler('MrNewbsSpookySeason:Client:InitialData', function(data)
-    if source ~= 65535 then return end
-    if not data.Shops then return end
-    for k, shop in pairs(data.Shops) do
+AddEventHandler('community_bridge:Client:OnPlayerLoaded', function()
+    Wait(1000)
+    if not SharedData.Shops then return end
+    for k, shop in pairs(SharedData.Shops) do
         ShopClass:new(k, shop.position, shop.model, shop.entityType, shop.inventory)
     end
 end)
