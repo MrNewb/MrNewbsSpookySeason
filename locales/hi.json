@@ -1,0 +1,43 @@
+{
+	"Notifications": {
+		"TrickNotification": "हा! आपको धोखा दिया गया है!",
+		"TreatNotification": "आपको एक मिठाई मिली!"
+	},
+	"Target": {
+		"ShopLabel": "डरावनी दुकान",
+		"ShopIcon": "fa-solid fa-shop",
+		"ShopColor": "orange",
+		"PumpkinLabel": "कद्दू पकड़ो",
+		"PumpkinIcon": "fa-solid fa-pumpkin",
+		"PumpkinColor": "orange",
+		"TrickKnockLabel": "ट्रिक या ट्रीट",
+		"TrickKnockIcon": "fa-solid fa-hand-fist",
+		"TrickKnockIconColor": "orange",
+		"TrickKnockBlip": "ट्रिक या ट्रीट"
+	},
+	"Items": {
+		"EventTokenDescription": "2025 हैलोवीन इवेंट के दौरान इवेंट स्टोर के लिए एक टोकन।"
+	},
+	"Shop": {
+		"ShopSubMenuDescription": "वस्तुएं खरीदें",
+		"BlipLabel": "डरावनी दुकान",
+		"Title": "डरावनी दुकान",
+		"BuyItems": "वस्तुएं खरीदें",
+		"BuyItemsIcon": "fa-solid fa-candy-cane",
+		"BuyItemsDescription": "विशेष हैलोवीन वस्तुएं प्राप्त करने के लिए अपने इवेंट टोकन का उपयोग करें।",
+		"ShopIcon": "fa-solid fa-shop",
+		"ShopTitle": "डरावनी दुकान में आपका स्वागत है!",
+		"ShopDescription": "डरावनी दुकान में आपका स्वागत है! विशेष हैलोवीन वस्तुएं प्राप्त करने के लिए अपने इवेंट टोकन का उपयोग करें।",
+		"BuyTitle": "डरावनी दुकान से वस्तुएं खरीदें",
+		"BuyDescription": "अपने इवेंट टोकन का उपयोग करके खरीदने के लिए एक वस्तु चुनें।",
+		"PurchaseTitle": "%s इवेंट टोकन के लिए एक %s खरीदें?",
+		"InvalidAmount": "अमान्य राशि दर्ज की गई।",
+		"PurchaseAmount": "खरीदारी की राशि",
+		"InputPurchaseAmount": "वह राशि दर्ज करें जो आप खरीदना चाहते हैं:",
+		"ItemNotForSale": "यह वस्तु बिक्री के लिए नहीं है।",
+		"NotEnoughTokens": "इस खरीदारी को पूरा करने के लिए आपके पास पर्याप्त इवेंट टोकन नहीं हैं।"
+	},
+	"GhostHunt": {
+		"InteractMessage": "आत्मा को मुक्त करें [E]"
+	}
+}

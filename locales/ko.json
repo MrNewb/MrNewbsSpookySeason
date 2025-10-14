@@ -1,0 +1,43 @@
+{
+	"Notifications": {
+		"TrickNotification": "하! 속았지!",
+		"TreatNotification": "사탕을 찾았어요!"
+	},
+	"Target": {
+		"ShopLabel": "무서운 상점",
+		"ShopIcon": "fa-solid fa-shop",
+		"ShopColor": "orange",
+		"PumpkinLabel": "호박 가져가기",
+		"PumpkinIcon": "fa-solid fa-pumpkin",
+		"PumpkinColor": "orange",
+		"TrickKnockLabel": "트릭 오어 트릿",
+		"TrickKnockIcon": "fa-solid fa-hand-fist",
+		"TrickKnockIconColor": "orange",
+		"TrickKnockBlip": "트릭 오어 트릿"
+	},
+	"Items": {
+		"EventTokenDescription": "2025 할로윈 이벤트 중 이벤트 상점용 토큰."
+	},
+	"Shop": {
+		"ShopSubMenuDescription": "아이템 구매",
+		"BlipLabel": "무서운 상점",
+		"Title": "무서운 상점",
+		"BuyItems": "아이템 구매",
+		"BuyItemsIcon": "fa-solid fa-candy-cane",
+		"BuyItemsDescription": "이벤트 토큰을 사용해서 독점 할로윈 아이템을 얻으세요.",
+		"ShopIcon": "fa-solid fa-shop",
+		"ShopTitle": "무서운 상점에 오신 것을 환영합니다!",
+		"ShopDescription": "무서운 상점에 오신 것을 환영합니다! 이벤트 토큰을 사용해서 독점 할로윈 아이템을 얻으세요.",
+		"BuyTitle": "무서운 상점에서 아이템 구매",
+		"BuyDescription": "이벤트 토큰을 사용하여 구매할 아이템을 선택하세요.",
+		"PurchaseTitle": "%s을(를) %s 이벤트 토큰으로 구매하시겠습니까?",
+		"InvalidAmount": "잘못된 금액이 입력되었습니다.",
+		"PurchaseAmount": "구매 금액",
+		"InputPurchaseAmount": "구매하고 싶은 금액을 입력하세요:",
+		"ItemNotForSale": "이 아이템은 판매되지 않습니다.",
+		"NotEnoughTokens": "이 구매를 완료하기에 충분한 이벤트 토큰이 없습니다."
+	},
+	"GhostHunt": {
+		"InteractMessage": "영혼 해방하기 [E]"
+	}
+}

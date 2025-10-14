@@ -1,0 +1,43 @@
+{
+	"Notifications": {
+		"TrickNotification": "HA! Du er blevet narret!",
+		"TreatNotification": "Du fandt en godbid!"
+	},
+	"Target": {
+		"ShopLabel": "Uhyggelig butik",
+		"ShopIcon": "fa-solid fa-shop",
+		"ShopColor": "orange",
+		"PumpkinLabel": "Tag græskar",
+		"PumpkinIcon": "fa-solid fa-pumpkin",
+		"PumpkinColor": "orange",
+		"TrickKnockLabel": "Slik eller ballade",
+		"TrickKnockIcon": "fa-solid fa-hand-fist",
+		"TrickKnockIconColor": "orange",
+		"TrickKnockBlip": "Slik eller ballade"
+	},
+	"Items": {
+		"EventTokenDescription": "Et token til event-butikken under Halloween-eventet 2025."
+	},
+	"Shop": {
+		"ShopSubMenuDescription": "Køb varer",
+		"BlipLabel": "Uhyggelig butik",
+		"Title": "Uhyggelig butik",
+		"BuyItems": "Køb varer",
+		"BuyItemsIcon": "fa-solid fa-candy-cane",
+		"BuyItemsDescription": "Brug dine event-tokens til at få eksklusive Halloween-varer.",
+		"ShopIcon": "fa-solid fa-shop",
+		"ShopTitle": "Velkommen til den uhyggelige butik!",
+		"ShopDescription": "Velkommen til den uhyggelige butik! Brug dine event-tokens til at få eksklusive Halloween-varer.",
+		"BuyTitle": "Køb varer fra den uhyggelige butik",
+		"BuyDescription": "Vælg en vare at købe med dine event-tokens.",
+		"PurchaseTitle": "Køb en %s for %s event-tokens?",
+		"InvalidAmount": "Ugyldigt beløb indtastet.",
+		"PurchaseAmount": "Købsbeløb",
+		"InputPurchaseAmount": "Indtast det beløb, du ønsker at købe:",
+		"ItemNotForSale": "Denne vare er ikke til salg.",
+		"NotEnoughTokens": "Du har ikke nok event-tokens til at gennemføre dette køb."
+	},
+	"GhostHunt": {
+		"InteractMessage": "Befri sjælen [E]"
+	}
+}

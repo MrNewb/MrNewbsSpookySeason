@@ -17,7 +17,7 @@ end
 function GraveClass:spawnZombie()
     local chance = math.random(1, 100)
     if chance < 40 then return end
-    local zombieModels = {"g_m_m_zombie_04", "u_m_y_zombie_01", "g_m_m_zombie_05"}
+    local zombieModels = {"g_m_m_zombie_04", "u_m_y_zombie_01", "u_m_y_prisoner_01"}
     local randModel = zombieModels[math.random(1, #zombieModels)]
     local ped = PlayerPedId()
     local pedCoords = GetEntityCoords(ped)

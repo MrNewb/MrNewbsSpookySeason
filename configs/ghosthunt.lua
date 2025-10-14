@@ -17,22 +17,22 @@ Config = Config or {}
 Config.GhostHunts = {
     {
         position = vector4(2541.7759, 4807.7173, 32.6210, 195.8603),
-        model = `G_M_M_Zombie_02`,
+        model = `u_m_y_zombie_01`,
         entityType = "ped",
     },
     {
         position = vector4(1344.9027, 4388.6294, 43.3437, 195.8190),
-        model = `G_M_M_Zombie_02`,
+        model = `u_m_y_staggrm_01`,
         entityType = "ped",
     },
     {
         position = vector4(3866.7502, 4463.8862, 1.7264, 85.3708),
-        model = `G_M_M_Zombie_02`,
+        model = `u_m_y_prisoner_01`,
         entityType = "ped",
     },
     {
         position = vector4(3616.7026, 5024.5093, 10.4145, 108.0216),
-        model = `G_M_M_Zombie_02`,
+        model = `a_m_m_business_01`,
         entityType = "ped",
     },
     {
@@ -42,12 +42,12 @@ Config.GhostHunts = {
     },
     {
         position = vector4(-3426.3721, 967.6293, 7.3467, 268.3922),
-        model = `G_M_M_Zombie_02`,
+        model = `a_m_m_hasjew_01`,
         entityType = "ped",
     },
     {
         position = vector4(-500.3494, -1032.3447, 51.4762, 132.6398),
-        model = `G_M_M_Zombie_02`,
+        model = `u_m_y_proldriver_01`,
         entityType = "ped",
     },
     {

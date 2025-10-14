@@ -1,0 +1,43 @@
+{
+	"Notifications": {
+		"TrickNotification": "HARR! Ye've been bamboozled, ye scurvy dog!",
+		"TreatNotification": "Arrr! Ye found yerself some treasure!"
+	},
+	"Target": {
+		"ShopLabel": "Cursed Merchant",
+		"ShopIcon": "fa-solid fa-shop",
+		"ShopColor": "orange",
+		"PumpkinLabel": "Grab ye Pumpkin",
+		"PumpkinIcon": "fa-solid fa-pumpkin",
+		"PumpkinColor": "orange",
+		"TrickKnockLabel": "Plunder or Parley",
+		"TrickKnockIcon": "fa-solid fa-hand-fist",
+		"TrickKnockIconColor": "orange",
+		"TrickKnockBlip": "Plunder or Parley"
+	},
+	"Items": {
+		"EventTokenDescription": "A cursed doubloon for the ghostly merchant during the 2025 Halloween plunderin'."
+	},
+	"Shop": {
+		"ShopSubMenuDescription": "Buy Ye Booty",
+		"BlipLabel": "Cursed Merchant",
+		"Title": "Cursed Merchant",
+		"BuyItems": "Buy Ye Booty",
+		"BuyItemsIcon": "fa-solid fa-candy-cane",
+		"BuyItemsDescription": "Use yer cursed doubloons to get some exclusive Halloween booty, savvy?",
+		"ShopIcon": "fa-solid fa-shop",
+		"ShopTitle": "Welcome to the Cursed Merchant, ye landlubber!",
+		"ShopDescription": "Welcome to the Cursed Merchant! Use yer cursed doubloons to get some exclusive Halloween booty.",
+		"BuyTitle": "Buy booty from the Cursed Merchant",
+		"BuyDescription": "Select an item to purchase using yer cursed doubloons.",
+		"PurchaseTitle": "Purchase a %s for %s cursed doubloons?",
+		"InvalidAmount": "Invalid amount entered, ye scallywag.",
+		"PurchaseAmount": "Purchase Amount",
+		"InputPurchaseAmount": "Enter the amount ye wish to purchase:",
+		"ItemNotForSale": "This booty ain't for sale, matey.",
+		"NotEnoughTokens": "Ye don't have enough cursed doubloons to complete this purchase, ye broke pirate!"
+	},
+	"GhostHunt": {
+		"InteractMessage": "Free The Lost Soul [E]"
+	}
+}

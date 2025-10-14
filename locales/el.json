@@ -1,0 +1,43 @@
+{
+	"Notifications": {
+		"TrickNotification": "ΧΑ! Σε ξεγέλασαν!",
+		"TreatNotification": "Βρήκες ένα γλυκό!"
+	},
+	"Target": {
+		"ShopLabel": "Τρομακτικό κατάστημα",
+		"ShopIcon": "fa-solid fa-shop",
+		"ShopColor": "orange",
+		"PumpkinLabel": "Πάρε κολοκύθα",
+		"PumpkinIcon": "fa-solid fa-pumpkin",
+		"PumpkinColor": "orange",
+		"TrickKnockLabel": "Φάρσα ή γλυκό",
+		"TrickKnockIcon": "fa-solid fa-hand-fist",
+		"TrickKnockIconColor": "orange",
+		"TrickKnockBlip": "Φάρσα ή γλυκό"
+	},
+	"Items": {
+		"EventTokenDescription": "Ένα token για το κατάστημα εκδήλωσης κατά τη διάρκεια της εκδήλωσης Halloween 2025."
+	},
+	"Shop": {
+		"ShopSubMenuDescription": "Αγορά αντικειμένων",
+		"BlipLabel": "Τρομακτικό κατάστημα",
+		"Title": "Τρομακτικό κατάστημα",
+		"BuyItems": "Αγορά αντικειμένων",
+		"BuyItemsIcon": "fa-solid fa-candy-cane",
+		"BuyItemsDescription": "Χρησιμοποίησε τα tokens εκδήλωσης για να πάρεις αποκλειστικά αντικείμενα Halloween.",
+		"ShopIcon": "fa-solid fa-shop",
+		"ShopTitle": "Καλώς ήρθες στο τρομακτικό κατάστημα!",
+		"ShopDescription": "Καλώς ήρθες στο τρομακτικό κατάστημα! Χρησιμοποίησε τα tokens εκδήλωσης για να πάρεις αποκλειστικά αντικείμενα Halloween.",
+		"BuyTitle": "Αγορά αντικειμένων από το τρομακτικό κατάστημα",
+		"BuyDescription": "Επίλεξε ένα αντικείμενο για αγορά χρησιμοποιώντας τα tokens εκδήλωσης.",
+		"PurchaseTitle": "Αγορά ενός %s για %s tokens εκδήλωσης;",
+		"InvalidAmount": "Μη έγκυρο ποσό που εισήχθη.",
+		"PurchaseAmount": "Ποσό αγοράς",
+		"InputPurchaseAmount": "Εισάγετε το ποσό που θέλετε να αγοράσετε:",
+		"ItemNotForSale": "Αυτό το αντικείμενο δεν είναι προς πώληση.",
+		"NotEnoughTokens": "Δεν έχεις αρκετά tokens εκδήλωσης για να ολοκληρώσεις αυτή την αγορά."
+	},
+	"GhostHunt": {
+		"InteractMessage": "Απελευθέρωσε την ψυχή [E]"
+	}
+}

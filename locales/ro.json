@@ -1,0 +1,43 @@
+{
+	"Notifications": {
+		"TrickNotification": "HA! Ai fost păcălit!",
+		"TreatNotification": "Ai găsit o dulciură!"
+	},
+	"Target": {
+		"ShopLabel": "Magazin Înfricoșător",
+		"ShopIcon": "fa-solid fa-shop",
+		"ShopColor": "orange",
+		"PumpkinLabel": "Ia dovleacul",
+		"PumpkinIcon": "fa-solid fa-pumpkin",
+		"PumpkinColor": "orange",
+		"TrickKnockLabel": "Dulce sau farsa",
+		"TrickKnockIcon": "fa-solid fa-hand-fist",
+		"TrickKnockIconColor": "orange",
+		"TrickKnockBlip": "Dulce sau farsa"
+	},
+	"Items": {
+		"EventTokenDescription": "Un token pentru magazinul evenimentului în timpul evenimentului Halloween 2025."
+	},
+	"Shop": {
+		"ShopSubMenuDescription": "Cumpără obiecte",
+		"BlipLabel": "Magazin Înfricoșător",
+		"Title": "Magazin Înfricoșător",
+		"BuyItems": "Cumpără obiecte",
+		"BuyItemsIcon": "fa-solid fa-candy-cane",
+		"BuyItemsDescription": "Folosește token-urile de eveniment pentru a obține obiecte exclusive de Halloween.",
+		"ShopIcon": "fa-solid fa-shop",
+		"ShopTitle": "Bun venit la Magazinul Înfricoșător!",
+		"ShopDescription": "Bun venit la Magazinul Înfricoșător! Folosește token-urile de eveniment pentru a obține obiecte exclusive de Halloween.",
+		"BuyTitle": "Cumpără obiecte din Magazinul Înfricoșător",
+		"BuyDescription": "Selectează un obiect de cumpărat folosind token-urile de eveniment.",
+		"PurchaseTitle": "Cumperi un %s pentru %s token-uri de eveniment?",
+		"InvalidAmount": "Sumă invalidă introdusă.",
+		"PurchaseAmount": "Suma de cumpărare",
+		"InputPurchaseAmount": "Introdu suma pe care dorești să o cumperi:",
+		"ItemNotForSale": "Acest obiect nu este de vânzare.",
+		"NotEnoughTokens": "Nu ai suficiente token-uri de eveniment pentru a completa această cumpărare."
+	},
+	"GhostHunt": {
+		"InteractMessage": "Eliberează sufletul [E]"
+	}
+}

@@ -1,0 +1,43 @@
+{
+	"Notifications": {
+		"TrickNotification": "ХА! Тебя обманули!",
+		"TreatNotification": "Вы нашли угощение!"
+	},
+	"Target": {
+		"ShopLabel": "Жуткий магазин",
+		"ShopIcon": "fa-solid fa-shop",
+		"ShopColor": "orange",
+		"PumpkinLabel": "Взять тыкву",
+		"PumpkinIcon": "fa-solid fa-pumpkin",
+		"PumpkinColor": "orange",
+		"TrickKnockLabel": "Кошелек или жизнь",
+		"TrickKnockIcon": "fa-solid fa-hand-fist",
+		"TrickKnockIconColor": "orange",
+		"TrickKnockBlip": "Кошелек или жизнь"
+	},
+	"Items": {
+		"EventTokenDescription": "Токен для магазина событий во время события Хэллоуин 2025."
+	},
+	"Shop": {
+		"ShopSubMenuDescription": "Купить предметы",
+		"BlipLabel": "Жуткий магазин",
+		"Title": "Жуткий магазин",
+		"BuyItems": "Купить предметы",
+		"BuyItemsIcon": "fa-solid fa-candy-cane",
+		"BuyItemsDescription": "Используйте токены событий для получения эксклюзивных предметов Хэллоуина.",
+		"ShopIcon": "fa-solid fa-shop",
+		"ShopTitle": "Добро пожаловать в жуткий магазин!",
+		"ShopDescription": "Добро пожаловать в жуткий магазин! Используйте токены событий для получения эксклюзивных предметов Хэллоуина.",
+		"BuyTitle": "Купить предметы в жутком магазине",
+		"BuyDescription": "Выберите предмет для покупки, используя токены событий.",
+		"PurchaseTitle": "Купить %s за %s токенов событий?",
+		"InvalidAmount": "Введена неверная сумма.",
+		"PurchaseAmount": "Сумма покупки",
+		"InputPurchaseAmount": "Введите сумму, которую хотите купить:",
+		"ItemNotForSale": "Этот предмет не продается.",
+		"NotEnoughTokens": "У вас недостаточно токенов событий для совершения этой покупки."
+	},
+	"GhostHunt": {
+		"InteractMessage": "Освободить душу [E]"
+	}
+}

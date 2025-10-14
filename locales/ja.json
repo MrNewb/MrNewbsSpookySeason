@@ -1,0 +1,43 @@
+{
+	"Notifications": {
+		"TrickNotification": "ハッ！だまされたね！",
+		"TreatNotification": "お菓子を見つけた！"
+	},
+	"Target": {
+		"ShopLabel": "不気味なショップ",
+		"ShopIcon": "fa-solid fa-shop",
+		"ShopColor": "orange",
+		"PumpkinLabel": "かぼちゃを取る",
+		"PumpkinIcon": "fa-solid fa-pumpkin",
+		"PumpkinColor": "orange",
+		"TrickKnockLabel": "トリックオアトリート",
+		"TrickKnockIcon": "fa-solid fa-hand-fist",
+		"TrickKnockIconColor": "orange",
+		"TrickKnockBlip": "トリックオアトリート"
+	},
+	"Items": {
+		"EventTokenDescription": "2025年ハロウィンイベント中のイベントストア用のトークン。"
+	},
+	"Shop": {
+		"ShopSubMenuDescription": "アイテムを購入",
+		"BlipLabel": "不気味なショップ",
+		"Title": "不気味なショップ",
+		"BuyItems": "アイテムを購入",
+		"BuyItemsIcon": "fa-solid fa-candy-cane",
+		"BuyItemsDescription": "イベントトークンを使って限定ハロウィンアイテムを入手しよう。",
+		"ShopIcon": "fa-solid fa-shop",
+		"ShopTitle": "不気味なショップへようこそ！",
+		"ShopDescription": "不気味なショップへようこそ！イベントトークンを使って限定ハロウィンアイテムを入手しよう。",
+		"BuyTitle": "不気味なショップからアイテムを購入",
+		"BuyDescription": "イベントトークンを使って購入するアイテムを選択してください。",
+		"PurchaseTitle": "%sを%sイベントトークンで購入しますか？",
+		"InvalidAmount": "無効な金額が入力されました。",
+		"PurchaseAmount": "購入金額",
+		"InputPurchaseAmount": "購入したい金額を入力してください：",
+		"ItemNotForSale": "このアイテムは販売されていません。",
+		"NotEnoughTokens": "この購入を完了するのに十分なイベントトークンがありません。"
+	},
+	"GhostHunt": {
+		"InteractMessage": "魂を解放する [E]"
+	}
+}

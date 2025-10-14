@@ -1,0 +1,43 @@
+{
+	"Notifications": {
+		"TrickNotification": "HA! Prevaren si!",
+		"TreatNotification": "Našao si slatkiš!"
+	},
+	"Target": {
+		"ShopLabel": "Sablasna trgovina",
+		"ShopIcon": "fa-solid fa-shop",
+		"ShopColor": "orange",
+		"PumpkinLabel": "Uzmi bundevu",
+		"PumpkinIcon": "fa-solid fa-pumpkin",
+		"PumpkinColor": "orange",
+		"TrickKnockLabel": "Trik ili poslastica",
+		"TrickKnockIcon": "fa-solid fa-hand-fist",
+		"TrickKnockIconColor": "orange",
+		"TrickKnockBlip": "Trik ili poslastica"
+	},
+	"Items": {
+		"EventTokenDescription": "Token za trgovinu događaja tijekom Halloween događaja 2025."
+	},
+	"Shop": {
+		"ShopSubMenuDescription": "Kupi predmete",
+		"BlipLabel": "Sablasna trgovina",
+		"Title": "Sablasna trgovina",
+		"BuyItems": "Kupi predmete",
+		"BuyItemsIcon": "fa-solid fa-candy-cane",
+		"BuyItemsDescription": "Koristi svoje tokene događaja za ekskluzivne Halloween predmete.",
+		"ShopIcon": "fa-solid fa-shop",
+		"ShopTitle": "Dobrodošli u sablasnu trgovinu!",
+		"ShopDescription": "Dobrodošli u sablasnu trgovinu! Koristi svoje tokene događaja za ekskluzivne Halloween predmete.",
+		"BuyTitle": "Kupi predmete iz sablasne trgovine",
+		"BuyDescription": "Odaberi predmet za kupnju koristeći svoje tokene događaja.",
+		"PurchaseTitle": "Kupi %s za %s tokena događaja?",
+		"InvalidAmount": "Unesena je nevažeća količina.",
+		"PurchaseAmount": "Količina kupnje",
+		"InputPurchaseAmount": "Unesi količinu koju želiš kupiti:",
+		"ItemNotForSale": "Ovaj predmet nije na prodaju.",
+		"NotEnoughTokens": "Nemaš dovoljno tokena događaja za završetak ove kupnje."
+	},
+	"GhostHunt": {
+		"InteractMessage": "Oslobodi dušu [E]"
+	}
+}

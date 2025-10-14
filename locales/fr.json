@@ -1,0 +1,43 @@
+{
+	"Notifications": {
+		"TrickNotification": "HA ! Vous avez été dupé !",
+		"TreatNotification": "Vous avez trouvé une friandise !"
+	},
+	"Target": {
+		"ShopLabel": "Boutique Effrayante",
+		"ShopIcon": "fa-solid fa-shop",
+		"ShopColor": "orange",
+		"PumpkinLabel": "Prendre Citrouille",
+		"PumpkinIcon": "fa-solid fa-pumpkin",
+		"PumpkinColor": "orange",
+		"TrickKnockLabel": "Des bonbons ou un sort",
+		"TrickKnockIcon": "fa-solid fa-hand-fist",
+		"TrickKnockIconColor": "orange",
+		"TrickKnockBlip": "Des bonbons ou un sort"
+	},
+	"Items": {
+		"EventTokenDescription": "Un jeton pour la boutique d'événement pendant l'événement Halloween 2025."
+	},
+	"Shop": {
+		"ShopSubMenuDescription": "Acheter des objets",
+		"BlipLabel": "Boutique Effrayante",
+		"Title": "Boutique Effrayante",
+		"BuyItems": "Acheter des objets",
+		"BuyItemsIcon": "fa-solid fa-candy-cane",
+		"BuyItemsDescription": "Utilisez vos jetons d'événement pour obtenir des objets Halloween exclusifs.",
+		"ShopIcon": "fa-solid fa-shop",
+		"ShopTitle": "Bienvenue à la Boutique Effrayante !",
+		"ShopDescription": "Bienvenue à la Boutique Effrayante ! Utilisez vos jetons d'événement pour obtenir des objets Halloween exclusifs.",
+		"BuyTitle": "Acheter des objets de la Boutique Effrayante",
+		"BuyDescription": "Sélectionnez un objet à acheter en utilisant vos jetons d'événement.",
+		"PurchaseTitle": "Acheter un %s pour %s jetons d'événement ?",
+		"InvalidAmount": "Montant invalide saisi.",
+		"PurchaseAmount": "Montant d'achat",
+		"InputPurchaseAmount": "Entrez le montant que vous souhaitez acheter :",
+		"ItemNotForSale": "Cet objet n'est pas à vendre.",
+		"NotEnoughTokens": "Vous n'avez pas assez de jetons d'événement pour compléter cet achat."
+	},
+	"GhostHunt": {
+		"InteractMessage": "Libérer l'Âme [E]"
+	}
+}

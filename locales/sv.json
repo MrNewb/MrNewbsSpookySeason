@@ -1,0 +1,43 @@
+{
+	"Notifications": {
+		"TrickNotification": "HA! Du blev lurad!",
+		"TreatNotification": "Du hittade en godis!"
+	},
+	"Target": {
+		"ShopLabel": "Skrämmande butik",
+		"ShopIcon": "fa-solid fa-shop",
+		"ShopColor": "orange",
+		"PumpkinLabel": "Ta pumpa",
+		"PumpkinIcon": "fa-solid fa-pumpkin",
+		"PumpkinColor": "orange",
+		"TrickKnockLabel": "Bus eller godis",
+		"TrickKnockIcon": "fa-solid fa-hand-fist",
+		"TrickKnockIconColor": "orange",
+		"TrickKnockBlip": "Bus eller godis"
+	},
+	"Items": {
+		"EventTokenDescription": "En token för eventbutiken under Halloween-eventet 2025."
+	},
+	"Shop": {
+		"ShopSubMenuDescription": "Köp föremål",
+		"BlipLabel": "Skrämmande butik",
+		"Title": "Skrämmande butik",
+		"BuyItems": "Köp föremål",
+		"BuyItemsIcon": "fa-solid fa-candy-cane",
+		"BuyItemsDescription": "Använd dina eventtokens för att få exklusiva Halloween-föremål.",
+		"ShopIcon": "fa-solid fa-shop",
+		"ShopTitle": "Välkommen till den skrämmande butiken!",
+		"ShopDescription": "Välkommen till den skrämmande butiken! Använd dina eventtokens för att få exklusiva Halloween-föremål.",
+		"BuyTitle": "Köp föremål från den skrämmande butiken",
+		"BuyDescription": "Välj ett föremål att köpa med dina eventtokens.",
+		"PurchaseTitle": "Köp en %s för %s eventtokens?",
+		"InvalidAmount": "Ogiltigt belopp angivet.",
+		"PurchaseAmount": "Köpbelopp",
+		"InputPurchaseAmount": "Ange beloppet du vill köpa:",
+		"ItemNotForSale": "Detta föremål är inte till salu.",
+		"NotEnoughTokens": "Du har inte tillräckligt med eventtokens för att slutföra detta köp."
+	},
+	"GhostHunt": {
+		"InteractMessage": "Befria själen [E]"
+	}
+}

@@ -1,0 +1,43 @@
+{
+	"Notifications": {
+		"TrickNotification": "HA! Você foi enganado!",
+		"TreatNotification": "Você encontrou um doce!"
+	},
+	"Target": {
+		"ShopLabel": "Loja Assombrada",
+		"ShopIcon": "fa-solid fa-shop",
+		"ShopColor": "orange",
+		"PumpkinLabel": "Pegar Abóbora",
+		"PumpkinIcon": "fa-solid fa-pumpkin",
+		"PumpkinColor": "orange",
+		"TrickKnockLabel": "Doces ou Travessuras",
+		"TrickKnockIcon": "fa-solid fa-hand-fist",
+		"TrickKnockIconColor": "orange",
+		"TrickKnockBlip": "Doces ou Travessuras"
+	},
+	"Items": {
+		"EventTokenDescription": "Um token para a loja do evento durante o evento de Halloween 2025."
+	},
+	"Shop": {
+		"ShopSubMenuDescription": "Comprar itens",
+		"BlipLabel": "Loja Assombrada",
+		"Title": "Loja Assombrada",
+		"BuyItems": "Comprar itens",
+		"BuyItemsIcon": "fa-solid fa-candy-cane",
+		"BuyItemsDescription": "Use seus tokens de evento para obter itens exclusivos de Halloween.",
+		"ShopIcon": "fa-solid fa-shop",
+		"ShopTitle": "Bem-vindo à Loja Assombrada!",
+		"ShopDescription": "Bem-vindo à Loja Assombrada! Use seus tokens de evento para obter itens exclusivos de Halloween.",
+		"BuyTitle": "Comprar itens da Loja Assombrada",
+		"BuyDescription": "Selecione um item para comprar usando seus tokens de evento.",
+		"PurchaseTitle": "Comprar um %s por %s tokens de evento?",
+		"InvalidAmount": "Quantidade inválida inserida.",
+		"PurchaseAmount": "Quantidade de compra",
+		"InputPurchaseAmount": "Digite a quantidade que deseja comprar:",
+		"ItemNotForSale": "Este item não está à venda.",
+		"NotEnoughTokens": "Você não tem tokens de evento suficientes para completar esta compra."
+	},
+	"GhostHunt": {
+		"InteractMessage": "Libertar a Alma [E]"
+	}
+}

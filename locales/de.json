@@ -1,0 +1,43 @@
+{
+	"Notifications": {
+		"TrickNotification": "HA! Du wurdest reingelegt!",
+		"TreatNotification": "Du hast eine Süßigkeit gefunden!"
+	},
+	"Target": {
+		"ShopLabel": "Gruseliger Shop",
+		"ShopIcon": "fa-solid fa-shop",
+		"ShopColor": "orange",
+		"PumpkinLabel": "Kürbis nehmen",
+		"PumpkinIcon": "fa-solid fa-pumpkin",
+		"PumpkinColor": "orange",
+		"TrickKnockLabel": "Süßes oder Saures",
+		"TrickKnockIcon": "fa-solid fa-hand-fist",
+		"TrickKnockIconColor": "orange",
+		"TrickKnockBlip": "Süßes oder Saures"
+	},
+	"Items": {
+		"EventTokenDescription": "Ein Token für den Event-Shop während des Halloween-Events 2025."
+	},
+	"Shop": {
+		"ShopSubMenuDescription": "Gegenstände kaufen",
+		"BlipLabel": "Gruseliger Shop",
+		"Title": "Gruseliger Shop",
+		"BuyItems": "Gegenstände kaufen",
+		"BuyItemsIcon": "fa-solid fa-candy-cane",
+		"BuyItemsDescription": "Verwende deine Event-Token, um exklusive Halloween-Gegenstände zu erhalten.",
+		"ShopIcon": "fa-solid fa-shop",
+		"ShopTitle": "Willkommen im gruseligen Shop!",
+		"ShopDescription": "Willkommen im gruseligen Shop! Verwende deine Event-Token, um exklusive Halloween-Gegenstände zu erhalten.",
+		"BuyTitle": "Gegenstände aus dem gruseligen Shop kaufen",
+		"BuyDescription": "Wähle einen Gegenstand zum Kauf mit deinen Event-Token aus.",
+		"PurchaseTitle": "Einen %s für %s Event-Token kaufen?",
+		"InvalidAmount": "Ungültiger Betrag eingegeben.",
+		"PurchaseAmount": "Kaufbetrag",
+		"InputPurchaseAmount": "Gib den Betrag ein, den du kaufen möchtest:",
+		"ItemNotForSale": "Dieser Gegenstand ist nicht zum Verkauf.",
+		"NotEnoughTokens": "Du hast nicht genug Event-Token, um diesen Kauf abzuschließen."
+	},
+	"GhostHunt": {
+		"InteractMessage": "Seele befreien [E]"
+	}
+}

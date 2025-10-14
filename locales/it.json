@@ -1,0 +1,43 @@
+{
+	"Notifications": {
+		"TrickNotification": "AH! Sei stato ingannato!",
+		"TreatNotification": "Hai trovato una caramella!"
+	},
+	"Target": {
+		"ShopLabel": "Negozio Spettrale",
+		"ShopIcon": "fa-solid fa-shop",
+		"ShopColor": "orange",
+		"PumpkinLabel": "Prendi Zucca",
+		"PumpkinIcon": "fa-solid fa-pumpkin",
+		"PumpkinColor": "orange",
+		"TrickKnockLabel": "Dolcetto o Scherzetto",
+		"TrickKnockIcon": "fa-solid fa-hand-fist",
+		"TrickKnockIconColor": "orange",
+		"TrickKnockBlip": "Dolcetto o Scherzetto"
+	},
+	"Items": {
+		"EventTokenDescription": "Un token per il negozio dell'evento durante l'evento Halloween 2025."
+	},
+	"Shop": {
+		"ShopSubMenuDescription": "Compra oggetti",
+		"BlipLabel": "Negozio Spettrale",
+		"Title": "Negozio Spettrale",
+		"BuyItems": "Compra oggetti",
+		"BuyItemsIcon": "fa-solid fa-candy-cane",
+		"BuyItemsDescription": "Usa i tuoi token evento per ottenere oggetti esclusivi di Halloween.",
+		"ShopIcon": "fa-solid fa-shop",
+		"ShopTitle": "Benvenuto al Negozio Spettrale!",
+		"ShopDescription": "Benvenuto al Negozio Spettrale! Usa i tuoi token evento per ottenere oggetti esclusivi di Halloween.",
+		"BuyTitle": "Compra oggetti dal Negozio Spettrale",
+		"BuyDescription": "Seleziona un oggetto da acquistare usando i tuoi token evento.",
+		"PurchaseTitle": "Acquistare un %s per %s token evento?",
+		"InvalidAmount": "Importo non valido inserito.",
+		"PurchaseAmount": "Importo di acquisto",
+		"InputPurchaseAmount": "Inserisci l'importo che desideri acquistare:",
+		"ItemNotForSale": "Questo oggetto non è in vendita.",
+		"NotEnoughTokens": "Non hai abbastanza token evento per completare questo acquisto."
+	},
+	"GhostHunt": {
+		"InteractMessage": "Libera l'Anima [E]"
+	}
+}

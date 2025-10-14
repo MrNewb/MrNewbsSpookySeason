@@ -1,0 +1,43 @@
+{
+	"Notifications": {
+		"TrickNotification": "HA! Je bent beetgenomen!",
+		"TreatNotification": "Je hebt een snoepje gevonden!"
+	},
+	"Target": {
+		"ShopLabel": "Griezelige winkel",
+		"ShopIcon": "fa-solid fa-shop",
+		"ShopColor": "orange",
+		"PumpkinLabel": "Pompoen pakken",
+		"PumpkinIcon": "fa-solid fa-pumpkin",
+		"PumpkinColor": "orange",
+		"TrickKnockLabel": "Snoep of je leven",
+		"TrickKnockIcon": "fa-solid fa-hand-fist",
+		"TrickKnockIconColor": "orange",
+		"TrickKnockBlip": "Snoep of je leven"
+	},
+	"Items": {
+		"EventTokenDescription": "Een token voor de evenementenwinkel tijdens het Halloween-evenement 2025."
+	},
+	"Shop": {
+		"ShopSubMenuDescription": "Items kopen",
+		"BlipLabel": "Griezelige winkel",
+		"Title": "Griezelige winkel",
+		"BuyItems": "Items kopen",
+		"BuyItemsIcon": "fa-solid fa-candy-cane",
+		"BuyItemsDescription": "Gebruik je evenement tokens om exclusieve Halloween items te krijgen.",
+		"ShopIcon": "fa-solid fa-shop",
+		"ShopTitle": "Welkom bij de griezelige winkel!",
+		"ShopDescription": "Welkom bij de griezelige winkel! Gebruik je evenement tokens om exclusieve Halloween items te krijgen.",
+		"BuyTitle": "Items kopen van de griezelige winkel",
+		"BuyDescription": "Selecteer een item om te kopen met je evenement tokens.",
+		"PurchaseTitle": "Een %s kopen voor %s evenement tokens?",
+		"InvalidAmount": "Ongeldig bedrag ingevoerd.",
+		"PurchaseAmount": "Aankoopbedrag",
+		"InputPurchaseAmount": "Voer het bedrag in dat je wilt kopen:",
+		"ItemNotForSale": "Dit item is niet te koop.",
+		"NotEnoughTokens": "Je hebt niet genoeg evenement tokens om deze aankoop af te ronden."
+	},
+	"GhostHunt": {
+		"InteractMessage": "Bevrijdt de ziel [E]"
+	}
+}

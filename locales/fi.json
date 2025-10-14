@@ -1,0 +1,43 @@
+{
+	"Notifications": {
+		"TrickNotification": "HA! Sinut huijattiin!",
+		"TreatNotification": "Löysit herkun!"
+	},
+	"Target": {
+		"ShopLabel": "Pelottava kauppa",
+		"ShopIcon": "fa-solid fa-shop",
+		"ShopColor": "orange",
+		"PumpkinLabel": "Ota kurpitsa",
+		"PumpkinIcon": "fa-solid fa-pumpkin",
+		"PumpkinColor": "orange",
+		"TrickKnockLabel": "Karkki vai kepponen",
+		"TrickKnockIcon": "fa-solid fa-hand-fist",
+		"TrickKnockIconColor": "orange",
+		"TrickKnockBlip": "Karkki vai kepponen"
+	},
+	"Items": {
+		"EventTokenDescription": "Token tapahtumamyymälää varten 2025 Halloween-tapahtuman aikana."
+	},
+	"Shop": {
+		"ShopSubMenuDescription": "Osta esineitä",
+		"BlipLabel": "Pelottava kauppa",
+		"Title": "Pelottava kauppa",
+		"BuyItems": "Osta esineitä",
+		"BuyItemsIcon": "fa-solid fa-candy-cane",
+		"BuyItemsDescription": "Käytä tapahtuma-tokenejasi saadaksesi eksklusiivisia Halloween-esineitä.",
+		"ShopIcon": "fa-solid fa-shop",
+		"ShopTitle": "Tervetuloa pelottavaan kauppaan!",
+		"ShopDescription": "Tervetuloa pelottavaan kauppaan! Käytä tapahtuma-tokenejasi saadaksesi eksklusiivisia Halloween-esineitä.",
+		"BuyTitle": "Osta esineitä pelottavasta kaupasta",
+		"BuyDescription": "Valitse esine ostettavaksi käyttämällä tapahtuma-tokenejasi.",
+		"PurchaseTitle": "Osta %s %s tapahtuma-tokenilla?",
+		"InvalidAmount": "Virheellinen määrä syötetty.",
+		"PurchaseAmount": "Ostomäärä",
+		"InputPurchaseAmount": "Syötä määrä, jonka haluat ostaa:",
+		"ItemNotForSale": "Tämä esine ei ole myynnissä.",
+		"NotEnoughTokens": "Sinulla ei ole tarpeeksi tapahtuma-tokeneita tämän oston suorittamiseen."
+	},
+	"GhostHunt": {
+		"InteractMessage": "Vapauta sielu [E]"
+	}
+}

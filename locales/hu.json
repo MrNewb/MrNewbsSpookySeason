@@ -1,0 +1,43 @@
+{
+	"Notifications": {
+		"TrickNotification": "HA! Át lettél verve!",
+		"TreatNotification": "Találtál egy édességet!"
+	},
+	"Target": {
+		"ShopLabel": "Kísérteties bolt",
+		"ShopIcon": "fa-solid fa-shop",
+		"ShopColor": "orange",
+		"PumpkinLabel": "Tök megfogása",
+		"PumpkinIcon": "fa-solid fa-pumpkin",
+		"PumpkinColor": "orange",
+		"TrickKnockLabel": "Csokit vagy csínyt",
+		"TrickKnockIcon": "fa-solid fa-hand-fist",
+		"TrickKnockIconColor": "orange",
+		"TrickKnockBlip": "Csokit vagy csínyt"
+	},
+	"Items": {
+		"EventTokenDescription": "Egy token az eseménybolthoz a 2025-ös Halloween esemény alatt."
+	},
+	"Shop": {
+		"ShopSubMenuDescription": "Tárgyak vásárlása",
+		"BlipLabel": "Kísérteties bolt",
+		"Title": "Kísérteties bolt",
+		"BuyItems": "Tárgyak vásárlása",
+		"BuyItemsIcon": "fa-solid fa-candy-cane",
+		"BuyItemsDescription": "Használd az esemény tokeneidet exkluzív Halloween tárgyak megszerzéséhez.",
+		"ShopIcon": "fa-solid fa-shop",
+		"ShopTitle": "Üdvözöl a kísérteties bolt!",
+		"ShopDescription": "Üdvözöl a kísérteties bolt! Használd az esemény tokeneidet exkluzív Halloween tárgyak megszerzéséhez.",
+		"BuyTitle": "Tárgyak vásárlása a kísérteties boltból",
+		"BuyDescription": "Válassz egy tárgyat a vásárláshoz az esemény tokeneid használatával.",
+		"PurchaseTitle": "Vásárolj egy %s-t %s esemény tokenért?",
+		"InvalidAmount": "Érvénytelen összeg lett megadva.",
+		"PurchaseAmount": "Vásárlási összeg",
+		"InputPurchaseAmount": "Add meg a vásárolni kívánt összeget:",
+		"ItemNotForSale": "Ez a tárgy nem eladó.",
+		"NotEnoughTokens": "Nincs elég esemény tokened a vásárlás befejezéséhez."
+	},
+	"GhostHunt": {
+		"InteractMessage": "Lélek felszabadítása [E]"
+	}
+}

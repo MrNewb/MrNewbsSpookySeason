@@ -1,0 +1,43 @@
+{
+	"Notifications": {
+		"TrickNotification": "HA! Byl jste oklamán!",
+		"TreatNotification": "Našli jste pamlsek!"
+	},
+	"Target": {
+		"ShopLabel": "Strašidelný obchod",
+		"ShopIcon": "fa-solid fa-shop",
+		"ShopColor": "orange",
+		"PumpkinLabel": "Vzít dýni",
+		"PumpkinIcon": "fa-solid fa-pumpkin",
+		"PumpkinColor": "orange",
+		"TrickKnockLabel": "Koledování",
+		"TrickKnockIcon": "fa-solid fa-hand-fist",
+		"TrickKnockIconColor": "orange",
+		"TrickKnockBlip": "Koledování"
+	},
+	"Items": {
+		"EventTokenDescription": "Token pro obchod událostí během události Halloween 2025."
+	},
+	"Shop": {
+		"ShopSubMenuDescription": "Koupit předměty",
+		"BlipLabel": "Strašidelný obchod",
+		"Title": "Strašidelný obchod",
+		"BuyItems": "Koupit předměty",
+		"BuyItemsIcon": "fa-solid fa-candy-cane",
+		"BuyItemsDescription": "Použijte své tokeny událostí k získání exkluzivních halloweenských předmětů.",
+		"ShopIcon": "fa-solid fa-shop",
+		"ShopTitle": "Vítejte ve strašidelném obchodě!",
+		"ShopDescription": "Vítejte ve strašidelném obchodě! Použijte své tokeny událostí k získání exkluzivních halloweenských předmětů.",
+		"BuyTitle": "Koupit předměty ze strašidelného obchodu",
+		"BuyDescription": "Vyberte předmět k nákupu pomocí vašich tokenů událostí.",
+		"PurchaseTitle": "Koupit %s za %s tokenů událostí?",
+		"InvalidAmount": "Byla zadána neplatná částka.",
+		"PurchaseAmount": "Částka nákupu",
+		"InputPurchaseAmount": "Zadejte částku, kterou si přejete koupit:",
+		"ItemNotForSale": "Tento předmět není na prodej.",
+		"NotEnoughTokens": "Nemáte dostatek tokenů událostí k dokončení tohoto nákupu."
+	},
+	"GhostHunt": {
+		"InteractMessage": "Osvobodit duši [E]"
+	}
+}

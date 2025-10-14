@@ -1,0 +1,43 @@
+{
+	"Notifications": {
+		"TrickNotification": "¡JA! ¡Te han engañado!",
+		"TreatNotification": "¡Has encontrado una golosina!"
+	},
+	"Target": {
+		"ShopLabel": "Tienda Espeluznante",
+		"ShopIcon": "fa-solid fa-shop",
+		"ShopColor": "orange",
+		"PumpkinLabel": "Tomar Calabaza",
+		"PumpkinIcon": "fa-solid fa-pumpkin",
+		"PumpkinColor": "orange",
+		"TrickKnockLabel": "Dulce o Travesura",
+		"TrickKnockIcon": "fa-solid fa-hand-fist",
+		"TrickKnockIconColor": "orange",
+		"TrickKnockBlip": "Dulce o Travesura"
+	},
+	"Items": {
+		"EventTokenDescription": "Un token para la tienda del evento durante el evento de Halloween 2025."
+	},
+	"Shop": {
+		"ShopSubMenuDescription": "Comprar artículos",
+		"BlipLabel": "Tienda Espeluznante",
+		"Title": "Tienda Espeluznante",
+		"BuyItems": "Comprar artículos",
+		"BuyItemsIcon": "fa-solid fa-candy-cane",
+		"BuyItemsDescription": "Usa tus tokens de evento para obtener artículos exclusivos de Halloween.",
+		"ShopIcon": "fa-solid fa-shop",
+		"ShopTitle": "¡Bienvenido a la Tienda Espeluznante!",
+		"ShopDescription": "¡Bienvenido a la Tienda Espeluznante! Usa tus tokens de evento para obtener artículos exclusivos de Halloween.",
+		"BuyTitle": "Comprar artículos de la Tienda Espeluznante",
+		"BuyDescription": "Selecciona un artículo para comprar usando tus tokens de evento.",
+		"PurchaseTitle": "¿Comprar un %s por %s tokens de evento?",
+		"InvalidAmount": "Cantidad inválida ingresada.",
+		"PurchaseAmount": "Cantidad de compra",
+		"InputPurchaseAmount": "Ingresa la cantidad que deseas comprar:",
+		"ItemNotForSale": "Este artículo no está a la venta.",
+		"NotEnoughTokens": "No tienes suficientes tokens de evento para completar esta compra."
+	},
+	"GhostHunt": {
+		"InteractMessage": "Liberar el Alma [E]"
+	}
+}

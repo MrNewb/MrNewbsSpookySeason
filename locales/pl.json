@@ -1,0 +1,43 @@
+{
+	"Notifications": {
+		"TrickNotification": "HA! Zostałeś oszukany!",
+		"TreatNotification": "Znalazłeś słodycz!"
+	},
+	"Target": {
+		"ShopLabel": "Przerażający sklep",
+		"ShopIcon": "fa-solid fa-shop",
+		"ShopColor": "orange",
+		"PumpkinLabel": "Weź dynię",
+		"PumpkinIcon": "fa-solid fa-pumpkin",
+		"PumpkinColor": "orange",
+		"TrickKnockLabel": "Cukierek albo psikus",
+		"TrickKnockIcon": "fa-solid fa-hand-fist",
+		"TrickKnockIconColor": "orange",
+		"TrickKnockBlip": "Cukierek albo psikus"
+	},
+	"Items": {
+		"EventTokenDescription": "Token do sklepu eventowego podczas eventu Halloween 2025."
+	},
+	"Shop": {
+		"ShopSubMenuDescription": "Kup przedmioty",
+		"BlipLabel": "Przerażający sklep",
+		"Title": "Przerażający sklep",
+		"BuyItems": "Kup przedmioty",
+		"BuyItemsIcon": "fa-solid fa-candy-cane",
+		"BuyItemsDescription": "Użyj swoich tokenów eventowych, aby zdobyć ekskluzywne przedmioty Halloween.",
+		"ShopIcon": "fa-solid fa-shop",
+		"ShopTitle": "Witaj w przerażającym sklepie!",
+		"ShopDescription": "Witaj w przerażającym sklepie! Użyj swoich tokenów eventowych, aby zdobyć ekskluzywne przedmioty Halloween.",
+		"BuyTitle": "Kup przedmioty z przerażającego sklepu",
+		"BuyDescription": "Wybierz przedmiot do zakupu używając swoich tokenów eventowych.",
+		"PurchaseTitle": "Kupić %s za %s tokenów eventowych?",
+		"InvalidAmount": "Wprowadzono nieprawidłową kwotę.",
+		"PurchaseAmount": "Kwota zakupu",
+		"InputPurchaseAmount": "Wprowadź kwotę, którą chcesz kupić:",
+		"ItemNotForSale": "Ten przedmiot nie jest na sprzedaż.",
+		"NotEnoughTokens": "Nie masz wystarczająco tokenów eventowych, aby dokończyć ten zakup."
+	},
+	"GhostHunt": {
+		"InteractMessage": "Uwolnij duszę [E]"
+	}
+}

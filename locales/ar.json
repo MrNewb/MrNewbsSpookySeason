@@ -1,0 +1,43 @@
+{
+	"Notifications": {
+		"TrickNotification": "هاها! لقد تم خداعك!",
+		"TreatNotification": "لقد وجدت حلوى!"
+	},
+	"Target": {
+		"ShopLabel": "متجر مخيف",
+		"ShopIcon": "fa-solid fa-shop",
+		"ShopColor": "orange",
+		"PumpkinLabel": "امسك اليقطين",
+		"PumpkinIcon": "fa-solid fa-pumpkin",
+		"PumpkinColor": "orange",
+		"TrickKnockLabel": "حيلة أم حلوى",
+		"TrickKnockIcon": "fa-solid fa-hand-fist",
+		"TrickKnockIconColor": "orange",
+		"TrickKnockBlip": "حيلة أم حلوى"
+	},
+	"Items": {
+		"EventTokenDescription": "رمز للمتجر الحدث خلال حدث الهالوين 2025."
+	},
+	"Shop": {
+		"ShopSubMenuDescription": "شراء العناصر",
+		"BlipLabel": "متجر مخيف",
+		"Title": "متجر مخيف",
+		"BuyItems": "شراء العناصر",
+		"BuyItemsIcon": "fa-solid fa-candy-cane",
+		"BuyItemsDescription": "استخدم رموز الأحداث الخاصة بك للحصول على عناصر هالوين الحصرية.",
+		"ShopIcon": "fa-solid fa-shop",
+		"ShopTitle": "مرحباً بك في المتجر المخيف!",
+		"ShopDescription": "مرحباً بك في المتجر المخيف! استخدم رموز الأحداث الخاصة بك للحصول على عناصر هالوين الحصرية.",
+		"BuyTitle": "شراء العناصر من المتجر المخيف",
+		"BuyDescription": "اختر عنصراً لشرائه باستخدام رموز الأحداث الخاصة بك.",
+		"PurchaseTitle": "شراء %s مقابل %s رمز حدث؟",
+		"InvalidAmount": "تم إدخال مبلغ غير صالح.",
+		"PurchaseAmount": "مبلغ الشراء",
+		"InputPurchaseAmount": "أدخل المبلغ الذي تريد شراءه:",
+		"ItemNotForSale": "هذا العنصر غير معروض للبيع.",
+		"NotEnoughTokens": "ليس لديك رموز أحداث كافية لإتمام هذا الشراء."
+	},
+	"GhostHunt": {
+		"InteractMessage": "حرر الروح [E]"
+	}
+}

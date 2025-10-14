@@ -1,0 +1,43 @@
+{
+	"Notifications": {
+		"TrickNotification": "HA! Du ble lurt!",
+		"TreatNotification": "Du fant en godbit!"
+	},
+	"Target": {
+		"ShopLabel": "Skremmende butikk",
+		"ShopIcon": "fa-solid fa-shop",
+		"ShopColor": "orange",
+		"PumpkinLabel": "Ta gresskar",
+		"PumpkinIcon": "fa-solid fa-pumpkin",
+		"PumpkinColor": "orange",
+		"TrickKnockLabel": "Knask eller knep",
+		"TrickKnockIcon": "fa-solid fa-hand-fist",
+		"TrickKnockIconColor": "orange",
+		"TrickKnockBlip": "Knask eller knep"
+	},
+	"Items": {
+		"EventTokenDescription": "Et token for hendelsesbutikken under Halloween-hendelsen 2025."
+	},
+	"Shop": {
+		"ShopSubMenuDescription": "Kjøp gjenstander",
+		"BlipLabel": "Skremmende butikk",
+		"Title": "Skremmende butikk",
+		"BuyItems": "Kjøp gjenstander",
+		"BuyItemsIcon": "fa-solid fa-candy-cane",
+		"BuyItemsDescription": "Bruk dine hendelsestokens for å få eksklusive Halloween-gjenstander.",
+		"ShopIcon": "fa-solid fa-shop",
+		"ShopTitle": "Velkommen til den skremmende butikken!",
+		"ShopDescription": "Velkommen til den skremmende butikken! Bruk dine hendelsestokens for å få eksklusive Halloween-gjenstander.",
+		"BuyTitle": "Kjøp gjenstander fra den skremmende butikken",
+		"BuyDescription": "Velg en gjenstand å kjøpe ved å bruke dine hendelsestokens.",
+		"PurchaseTitle": "Kjøp en %s for %s hendelsestokens?",
+		"InvalidAmount": "Ugyldig beløp angitt.",
+		"PurchaseAmount": "Kjøpsbeløp",
+		"InputPurchaseAmount": "Angi beløpet du ønsker å kjøpe:",
+		"ItemNotForSale": "Denne gjenstanden er ikke til salgs.",
+		"NotEnoughTokens": "Du har ikke nok hendelsestokens til å fullføre dette kjøpet."
+	},
+	"GhostHunt": {
+		"InteractMessage": "Befri sjelen [E]"
+	}
+}

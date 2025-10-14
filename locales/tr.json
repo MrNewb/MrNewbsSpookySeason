@@ -1,0 +1,43 @@
+{
+	"Notifications": {
+		"TrickNotification": "HA! Kandırıldın!",
+		"TreatNotification": "Bir şeker buldun!"
+	},
+	"Target": {
+		"ShopLabel": "Korkunç Mağaza",
+		"ShopIcon": "fa-solid fa-shop",
+		"ShopColor": "orange",
+		"PumpkinLabel": "Kabağı Al",
+		"PumpkinIcon": "fa-solid fa-pumpkin",
+		"PumpkinColor": "orange",
+		"TrickKnockLabel": "Şaka mı şeker mi",
+		"TrickKnockIcon": "fa-solid fa-hand-fist",
+		"TrickKnockIconColor": "orange",
+		"TrickKnockBlip": "Şaka mı şeker mi"
+	},
+	"Items": {
+		"EventTokenDescription": "2025 Halloween etkinliği sırasında etkinlik mağazası için bir jeton."
+	},
+	"Shop": {
+		"ShopSubMenuDescription": "Eşya satın al",
+		"BlipLabel": "Korkunç Mağaza",
+		"Title": "Korkunç Mağaza",
+		"BuyItems": "Eşya satın al",
+		"BuyItemsIcon": "fa-solid fa-candy-cane",
+		"BuyItemsDescription": "Özel Halloween eşyaları almak için etkinlik jetonlarınızı kullanın.",
+		"ShopIcon": "fa-solid fa-shop",
+		"ShopTitle": "Korkunç Mağaza'ya hoş geldiniz!",
+		"ShopDescription": "Korkunç Mağaza'ya hoş geldiniz! Özel Halloween eşyaları almak için etkinlik jetonlarınızı kullanın.",
+		"BuyTitle": "Korkunç Mağaza'dan eşya satın al",
+		"BuyDescription": "Etkinlik jetonlarınızı kullanarak satın almak için bir eşya seçin.",
+		"PurchaseTitle": "%s etkinlik jetonu karşılığında bir %s satın al?",
+		"InvalidAmount": "Geçersiz miktar girildi.",
+		"PurchaseAmount": "Satın alma miktarı",
+		"InputPurchaseAmount": "Satın almak istediğiniz miktarı girin:",
+		"ItemNotForSale": "Bu eşya satılık değil.",
+		"NotEnoughTokens": "Bu satın almayı tamamlamak için yeterli etkinlik jetonunuz yok."
+	},
+	"GhostHunt": {
+		"InteractMessage": "Ruhu Serbest Bırak [E]"
+	}
+}

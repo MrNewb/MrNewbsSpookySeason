@@ -25,19 +25,19 @@ end
 
 local function shopAmountInput(id, itemName, itemPrice, label)
     local eventTokenCount = Bridge.Inventory.GetItemCount("event_token")
-    if eventTokenCount <= 0 then return Bridge.Notify.SendNotify(locale("Shop.NotEnoughTokens"),"error", 5000) end
+    if eventTokenCount <= 0 then return Bridge.Notify.SendNotify(locale("Shop.NotEnoughTokens"), "error", 5000) end
     local obj = shopObj[id]
     if not obj then return print(("[DEBUG] No shop object found with id '%s'."):format(tostring(id))) end
     if not obj.inventory then return print(("[DEBUG] No inventory found for shop with id '%s'."):format(tostring(id))) end
     if not obj.inventory[itemName] then return print(("[DEBUG] No item named '%s' found in shop with id '%s'."):format(tostring(itemName), tostring(id))) end
     local price = obj.inventory[itemName]
-    if eventTokenCount < price then return Bridge.Notify.SendNotify(locale("Shop.NotEnoughTokens"),"error", 5000) end
+    if eventTokenCount < price then return Bridge.Notify.SendNotify(locale("Shop.NotEnoughTokens"), "error", 5000) end
     local maxAffordable = math.floor(eventTokenCount / price)
     local input = Bridge.Input.Open(label, {
         { type = 'slider', label = locale("Shop.InputPurchaseAmount"), min = 0, max = maxAffordable, step = 1 },
-	}, false)
-	if not input or not input[1] then return end
-    if tonumber(input[1]) <= 0 then return Bridge.Notify.SendNotify(locale("Shop.InvalidAmount"),"error", 5000) end
+    }, false)
+    if not input or not input[1] then return end
+    if tonumber(input[1]) <= 0 then return Bridge.Notify.SendNotify(locale("Shop.InvalidAmount"), "error", 5000) end
     TriggerServerEvent("MrNewbsSpookySeason:Server:Shop:PurchaseItem", id, itemName, tonumber(input[1]))
 end
 
@@ -104,10 +104,10 @@ function ShopClass:register()
             FreezeEntityPosition(entityData.spawned, true)
             Bridge.Target.AddLocalEntity(entityData.spawned, {
                 {
-                    name = 'Spooky Shop ' .. entityData.id,
-                    label = locale("Target.ShopLabel"),
-                    icon  = locale("Target.ShopIcon"),
-                    color = locale("Target.ShopColor"),
+                    name     = 'Spooky Shop ' .. entityData.id,
+                    label    = locale("Target.ShopLabel"),
+                    icon     = locale("Target.ShopIcon"),
+                    color    = locale("Target.ShopColor"),
                     distance = 5,
                     onSelect = function()
                         shopMainMenus(self.id)
@@ -137,7 +137,7 @@ RegisterNetEvent("MrNewbsSpookySeason:Client:UsableItems:UseItem", function(id)
         duration = 5000,
         label = itemInfo.label,
         disable = { move = true, combat = true },
-        anim = { dict = "anim@heists@humane_labs@emp@hack_door", clip = "hack_loop", flag = 1,},
+        anim = { dict = "anim@heists@humane_labs@emp@hack_door", clip = "hack_loop", flag = 1, },
         prop = {
             model = "xm3_prop_xm3_present_01a",
             bone = 28422,

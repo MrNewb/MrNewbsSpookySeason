@@ -1,0 +1,43 @@
+{
+	"Notifications": {
+		"TrickNotification": "HA! Buvai apgautas!",
+		"TreatNotification": "Radai saldumyną!"
+	},
+	"Target": {
+		"ShopLabel": "Bauginanti parduotuvė",
+		"ShopIcon": "fa-solid fa-shop",
+		"ShopColor": "orange",
+		"PumpkinLabel": "Paimti moliūgą",
+		"PumpkinIcon": "fa-solid fa-pumpkin",
+		"PumpkinColor": "orange",
+		"TrickKnockLabel": "Išdaiga ar saldainis",
+		"TrickKnockIcon": "fa-solid fa-hand-fist",
+		"TrickKnockIconColor": "orange",
+		"TrickKnockBlip": "Išdaiga ar saldainis"
+	},
+	"Items": {
+		"EventTokenDescription": "Žetonas renginio parduotuvei 2025 metų Helovyno renginio metu."
+	},
+	"Shop": {
+		"ShopSubMenuDescription": "Pirkti daiktus",
+		"BlipLabel": "Bauginanti parduotuvė",
+		"Title": "Bauginanti parduotuvė",
+		"BuyItems": "Pirkti daiktus",
+		"BuyItemsIcon": "fa-solid fa-candy-cane",
+		"BuyItemsDescription": "Naudokite savo renginio žetonus, kad gautumėte išskirtinių Helovyno daiktų.",
+		"ShopIcon": "fa-solid fa-shop",
+		"ShopTitle": "Sveiki atvykę į bauginančią parduotuvę!",
+		"ShopDescription": "Sveiki atvykę į bauginančią parduotuvę! Naudokite savo renginio žetonus, kad gautumėte išskirtinių Helovyno daiktų.",
+		"BuyTitle": "Pirkti daiktus iš bauginančios parduotuvės",
+		"BuyDescription": "Pasirinkite daiktą pirkimui naudodami savo renginio žetonus.",
+		"PurchaseTitle": "Pirkti %s už %s renginio žetonų?",
+		"InvalidAmount": "Įvestas neteisingas kiekis.",
+		"PurchaseAmount": "Pirkimo suma",
+		"InputPurchaseAmount": "Įveskite sumą, kurią norite pirkti:",
+		"ItemNotForSale": "Šis daiktas neparduodamas.",
+		"NotEnoughTokens": "Neturite pakankamai renginio žetonų šiam pirkimui užbaigti."
+	},
+	"GhostHunt": {
+		"InteractMessage": "Išlaisvinti sielą [E]"
+	}
+}

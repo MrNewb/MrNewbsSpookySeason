@@ -1,0 +1,43 @@
+{
+	"Notifications": {
+		"TrickNotification": "ฮ่า! คุณถูกหลอกแล้ว!",
+		"TreatNotification": "คุณพบขนมแล้ว!"
+	},
+	"Target": {
+		"ShopLabel": "ร้านค้าน่ากลัว",
+		"ShopIcon": "fa-solid fa-shop",
+		"ShopColor": "orange",
+		"PumpkinLabel": "หยิบฟักทอง",
+		"PumpkinIcon": "fa-solid fa-pumpkin",
+		"PumpkinColor": "orange",
+		"TrickKnockLabel": "ขนมหรือแกล้ง",
+		"TrickKnockIcon": "fa-solid fa-hand-fist",
+		"TrickKnockIconColor": "orange",
+		"TrickKnockBlip": "ขนมหรือแกล้ง"
+	},
+	"Items": {
+		"EventTokenDescription": "โทเค็นสำหรับร้านค้าอีเวนต์ในระหว่างอีเวนต์ Halloween 2025"
+	},
+	"Shop": {
+		"ShopSubMenuDescription": "ซื้อของ",
+		"BlipLabel": "ร้านค้าน่ากลัว",
+		"Title": "ร้านค้าน่ากลัว",
+		"BuyItems": "ซื้อของ",
+		"BuyItemsIcon": "fa-solid fa-candy-cane",
+		"BuyItemsDescription": "ใช้โทเค็นอีเวนต์ของคุณเพื่อรับของ Halloween พิเศษ",
+		"ShopIcon": "fa-solid fa-shop",
+		"ShopTitle": "ยินดีต้อนรับสู่ร้านค้าน่ากลัว!",
+		"ShopDescription": "ยินดีต้อนรับสู่ร้านค้าน่ากลัว! ใช้โทเค็นอีเวนต์ของคุณเพื่อรับของ Halloween พิเศษ",
+		"BuyTitle": "ซื้อของจากร้านค้าน่ากลัว",
+		"BuyDescription": "เลือกของที่จะซื้อโดยใช้โทเค็นอีเวนต์ของคุณ",
+		"PurchaseTitle": "ซื้อ %s ด้วย %s โทเค็นอีเวนต์?",
+		"InvalidAmount": "ป้อนจำนวนที่ไม่ถูกต้อง",
+		"PurchaseAmount": "จำนวนที่ซื้อ",
+		"InputPurchaseAmount": "ป้อนจำนวนที่คุณต้องการซื้อ:",
+		"ItemNotForSale": "ของชิ้นนี้ไม่ได้วางขาย",
+		"NotEnoughTokens": "คุณมีโทเค็นอีเวนต์ไม่เพียงพอสำหรับการซื้อนี้"
+	},
+	"GhostHunt": {
+		"InteractMessage": "ปลดปล่อยวิญญาณ [E]"
+	}
+}

@@ -1,0 +1,43 @@
+{
+	"Notifications": {
+		"TrickNotification": "哈！你被耍了！",
+		"TreatNotification": "你找到了糖果！"
+	},
+	"Target": {
+		"ShopLabel": "恐怖商店",
+		"ShopIcon": "fa-solid fa-shop",
+		"ShopColor": "orange",
+		"PumpkinLabel": "拿南瓜",
+		"PumpkinIcon": "fa-solid fa-pumpkin",
+		"PumpkinColor": "orange",
+		"TrickKnockLabel": "不给糖就捣蛋",
+		"TrickKnockIcon": "fa-solid fa-hand-fist",
+		"TrickKnockIconColor": "orange",
+		"TrickKnockBlip": "不给糖就捣蛋"
+	},
+	"Items": {
+		"EventTokenDescription": "2025年万圣节活动期间活动商店的代币。"
+	},
+	"Shop": {
+		"ShopSubMenuDescription": "购买物品",
+		"BlipLabel": "恐怖商店",
+		"Title": "恐怖商店",
+		"BuyItems": "购买物品",
+		"BuyItemsIcon": "fa-solid fa-candy-cane",
+		"BuyItemsDescription": "使用你的活动代币获取专属万圣节物品。",
+		"ShopIcon": "fa-solid fa-shop",
+		"ShopTitle": "欢迎来到恐怖商店！",
+		"ShopDescription": "欢迎来到恐怖商店！使用你的活动代币获取专属万圣节物品。",
+		"BuyTitle": "从恐怖商店购买物品",
+		"BuyDescription": "选择一个物品使用你的活动代币购买。",
+		"PurchaseTitle": "用%s个活动代币购买%s？",
+		"InvalidAmount": "输入的金额无效。",
+		"PurchaseAmount": "购买数量",
+		"InputPurchaseAmount": "输入你想要购买的数量：",
+		"ItemNotForSale": "该物品不出售。",
+		"NotEnoughTokens": "你没有足够的活动代币来完成此次购买。"
+	},
+	"GhostHunt": {
+		"InteractMessage": "释放灵魂 [E]"
+	}
+}
