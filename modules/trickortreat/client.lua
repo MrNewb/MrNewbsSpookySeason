@@ -97,7 +97,7 @@ AddEventHandler('MrNewbsSpookySeason:Client:InitialData', function(data)
     if not data.TrickOrTreat then return end
     local identifier = Bridge.Framework.GetPlayerIdentifier()
     for k, treat in pairs(data.TrickOrTreat) do
-        if not treat.claimed[identifier] then
+        if not treat.claimed[identifier] and not trickOrTreatObj[k] then
             TickOrTreatClass:new(k, treat.targetPoint, treat.entityType, treat.model, treat.pedSpawn)
         end
     end

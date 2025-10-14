@@ -3,7 +3,7 @@ game 'gta5'
 lua54 'yes'
 author 'MrNewb'
 description 'A comprehensive Halloween experience by MrNewb featuring ghost hunting, pumpkin searches, grave digging, reward shops, decorations, and trick-or-treating. Built with clean architecture for a hauntingly good time!'
-version '0.0.3'
+version '0.0.4'
 
 shared_scripts {
 	'core/init.lua',

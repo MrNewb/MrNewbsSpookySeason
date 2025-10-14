@@ -94,24 +94,10 @@ Config.TrickOrTreat = {
         lootTable = "trickOrTreat",
     },
     {
-        targetPoint = vector4(1265.75, -649.0, 68.25, 0.5),
-        model = `g_m_m_armgoon_01`,
-        entityType = "ped",
-        pedSpawn = vector4(1265.5721, -648.0392, 67.9214, 352.6507),
-        lootTable = "trickOrTreat",
-    },
-    {
         targetPoint = vector4(1271.0, -684.25, 66.25, 0.5),
         model = `g_m_m_armgoon_01`,
         entityType = "ped",
         pedSpawn = vector4(1271.0432, -683.6273, 66.0316, 5.9877),
-        lootTable = "trickOrTreat",
-    },
-    {
-        targetPoint = vector4(1264.25, -702.5, 65.0, 0.5),
-        model = `g_m_m_armgoon_01`,
-        entityType = "ped",
-        pedSpawn = vector4(1264.9215, -702.9536, 64.7157, 240.2819),
         lootTable = "trickOrTreat",
     },
     {
