@@ -89,6 +89,45 @@ local function shopMainMenus(id)
     Bridge.Menu.Open({ id = menuID, title = locale("Shop.Title"), options = shopMenu }, false)
 end
 
+function ShopClass:weatherSetEnter()
+    if not Config.WeatherFeature then return end
+    Bridge.Weather.ToggleSync(false)
+    SetWeatherTypeNowPersist("HALLOWEEN")
+    SetWeatherTypePersist("HALLOWEEN")
+    SetOverrideWeather("HALLOWEEN")
+end
+
+function ShopClass:weatherSetExit()
+    if not Config.WeatherFeature then return end
+    ClearOverrideWeather()
+    Bridge.Weather.ToggleSync(true)
+end
+
+function ShopClass:onEnter(entityData)
+    Bridge.Particle.CreateOnEntity("core", "ent_amb_snow_mist_base", entityData.spawned, vector3(0.0, 0.0, -1.0), vector3(0.0, 0.0, 0.0), 3.5, vector3(0, 0, 0), true, false)
+    SetEntityInvincible(entityData.spawned, true)
+    FreezeEntityPosition(entityData.spawned, true)
+    Bridge.Target.AddLocalEntity(entityData.spawned, {
+        {
+            name     = 'Spooky Shop ' .. entityData.id,
+            label    = locale("Target.ShopLabel"),
+            icon     = locale("Target.ShopIcon"),
+            color    = locale("Target.ShopColor"),
+            distance = 5,
+            onSelect = function()
+                shopMainMenus(self.id)
+            end
+        },
+    })
+    self:weatherSetEnter()
+end
+
+function ShopClass:OnRemove(entityData)
+    self:weatherSetExit()
+    if not entityData.spawned then return end
+    Bridge.Target.RemoveLocalEntity(entityData.spawned)
+end
+
 function ShopClass:register()
     self.blip = Bridge.Utility.CreateBlip(vector3(self.position.x, self.position.y, self.position.z), 781, 2, 0.8, locale("Shop.BlipLabel"), true, 4)
     Bridge.Entity.Create({
@@ -97,35 +136,12 @@ function ShopClass:register()
         model = self.model,
         coords = self.position,
         heading = self.position.w,
-        spawnDistance = 100,
+        spawnDistance = 150,
         OnSpawn = function(entityData)
-            Bridge.Particle.CreateOnEntity("core", "ent_amb_snow_mist_base", entityData.spawned, vector3(0.0, 0.0, -1.0), vector3(0.0, 0.0, 0.0), 3.5, vector3(0, 0, 0), true, false)
-            SetEntityInvincible(entityData.spawned, true)
-            FreezeEntityPosition(entityData.spawned, true)
-            Bridge.Target.AddLocalEntity(entityData.spawned, {
-                {
-                    name     = 'Spooky Shop ' .. entityData.id,
-                    label    = locale("Target.ShopLabel"),
-                    icon     = locale("Target.ShopIcon"),
-                    color    = locale("Target.ShopColor"),
-                    distance = 5,
-                    onSelect = function()
-                        shopMainMenus(self.id)
-                    end
-                },
-            })
-            self.entityID = entityData.spawned
-            Bridge.Weather.ToggleSync(false)
-            SetWeatherTypeNowPersist("HALLOWEEN")
-            SetWeatherTypePersist("HALLOWEEN")
-            SetOverrideWeather("HALLOWEEN")
+            self:onEnter(entityData)
         end,
         OnRemove = function(entityData)
-            ClearOverrideWeather()
-            Bridge.Weather.ToggleSync(true)
-            if not entityData.spawned then return end
-            Bridge.Target.RemoveLocalEntity(entityData.spawned)
-            self.entityID = nil
+            self:OnRemove(entityData)
         end
     })
 end

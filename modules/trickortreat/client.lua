@@ -31,7 +31,7 @@ function TickOrTreatClass:register()
             end,
         },
     }
-    self.target = Bridge.Target.AddSphereZone(self.id, vector3(self.targetPoint.x, self.targetPoint.y, self.targetPoint.z), self.targetPoint.w, options, false)
+    self.target = Bridge.Target.AddSphereZone(self.id, vector3(self.targetPoint.x, self.targetPoint.y, self.targetPoint.z), self.targetPoint.w, options, false) or self.id
     if Config.TrickOrTreatBlips then self.blip = Bridge.Utility.CreateBlip(self.targetPoint, 40, 44, 0.8, locale("Target.TrickKnockBlip"), true, 9) end
 end
 
@@ -58,6 +58,8 @@ function TickOrTreatClass:destroy()
 end
 
 function TickOrTreatClass:interaction()
+    if self.target then Bridge.Target.RemoveZone(self.id) end
+    self.target = nil
     local myPed = PlayerPedId()
     local myCoords = GetEntityCoords(myPed)
     local houseDict = "timetable@jimmy@doorknock@"

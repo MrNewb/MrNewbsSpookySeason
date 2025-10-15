@@ -14,7 +14,7 @@
 
 
 Config = Config or {}
-
+Config.WeatherFeature = true -- Enable or disable the weather feature when inside the shop area.
 Config.Shops = {
     ["SpookyShop"] = {
         position = vector4(-1726.4633, -192.4515, 58.8, 270.3187),
