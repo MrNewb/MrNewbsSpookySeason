@@ -16,6 +16,6 @@ else
 
     RegisterNetEvent('community_bridge:Client:OnPlayerLoaded', function()
         SharedData = Bridge.Callback.Trigger('MrNewbsSpookySeason:Callback:GetInitialData')
-        print("All Shared Data " .. json.encode(SharedData, { indent = true }))
+        --print("All Shared Data " .. json.encode(SharedData, { indent = true }))
     end)
 end
