@@ -1,0 +1,10 @@
+    -- Spooky Season
+    -- 🎃 Halloween / Event Items
+    event_token = {name = "event_token", label = "Event Token", weight = 1, type = "item", image = "event_token.png", unique = false, useable = false, shouldClose = false, combinable = nil, description = "A special token awarded during seasonal events."},
+    candy_corn = {name = "candy_corn", label = "Candy Corn", weight = 1, type = "item", image = "candy_corn.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "Sweet Halloween treat — classic candy corn!"},
+    chocolate_bar = {name = "chocolate_bar", label = "Chocolate Bar", weight = 1, type = "item", image = "chocolate_bar.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "A tasty chocolate bar to satisfy your sweet tooth."},
+    pumpkin_basket = {name = "pumpkin_basket", label = "Pumpkin Basket", weight = 1, type = "item", image = "pumpkin_basket.png", unique = true, useable = false, shouldClose = false, combinable = nil, description = "A pumpkin-shaped basket used for trick or treating."},
+    rotten_casket = {name = "rotten_casket", label = "Rotten Casket", weight = 1, type = "item", image = "rotten_casket.png", unique = true, useable = false, shouldClose = false, combinable = nil, description = "A creepy, foul-smelling casket. Best left closed."},
+
+    -- ⚙️ Tools / Weapons if using pengu digiscanner
+    weapon_digiscanner = {name = "weapon_digiscanner", label = "DigiScanner", weight = 227, type = "weapon", image = "weapon_digiscanner.png", unique = true, useable = false, shouldClose = false, combinable = nil, description = "Electronic scanning device used for digital readings.", durability = 0.1},
