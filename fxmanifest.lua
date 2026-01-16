@@ -1,9 +1,10 @@
 fx_version 'cerulean'
 game 'gta5'
 lua54 'yes'
-author 'MrNewb'
+name 'MrNewbSpookySeason'
 description 'A comprehensive Halloween experience by MrNewb featuring ghost hunting, pumpkin searches, grave digging, reward shops, decorations, and trick-or-treating. Built with clean architecture for a hauntingly good time!'
-version '0.1.2'
+author 'MrNewb'
+version '0.1.3'
 
 shared_scripts {
 	'core/init.lua',
@@ -19,11 +20,15 @@ server_scripts {
 }
 
 files {
-	'locales/*.json'
+	'locales/*.*',
 }
 
 dependencies {
 	'/server:6116',
 	'/onesync',
-	'community_bridge'
+	'community_bridge',
+}
+
+escrow_ignore {
+	'**/*.lua',
 }
