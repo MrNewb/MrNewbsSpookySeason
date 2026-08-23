@@ -1,7 +1,8 @@
 {
 	"Notifications": {
 		"TrickNotification": "HA! Youve been tricked!",
-		"TreatNotification": "You found a treat!"
+		"TreatNotification": "You found a treat!",
+		"Canceled": "You cancelled the action."
 	},
 	"Target": {
 		"ShopLabel": "Spooky Shop",
@@ -10,6 +11,7 @@
 		"PumpkinLabel": "Grab Pumpkin",
 		"PumpkinIcon": "fa-solid fa-pumpkin",
 		"PumpkinColor": "orange",
+		"GraveLabel": "Dig Grave",
 		"TrickKnockLabel": "Trick or Treat",
 		"TrickKnockIcon": "fa-solid fa-hand-fist",
 		"TrickKnockIconColor": "orange",
@@ -35,7 +37,9 @@
 		"PurchaseAmount": "Purchase Amount",
 		"InputPurchaseAmount": "Enter the amount you wish to purchase:",
 		"ItemNotForSale": "This item is not for sale.",
-		"NotEnoughTokens": "You do not have enough Event Tokens to complete this purchase."
+		"NotEnoughTokens": "You do not have enough Event Tokens to complete this purchase.",
+		"InvalidShop": "This shop is not available.",
+		"CannotCarry": "You cannot carry that many items."
 	},
 	"GhostHunt": {
 		"InteractMessage": "Free The Soul [E]"

@@ -6,7 +6,7 @@ A comprehensive Halloween-themed script featuring ghost hunting, spooky activiti
 
 For detailed installation and configuration instructions, please visit our documentation:
 
-**[Official Documentation](https://mrnewbs-scrips.gitbook.io/guide)**
+**[Official Documentation](https://mrnewb.github.io/docs)**
 
 ## Support
 
@@ -41,7 +41,7 @@ https://www.youtube.com/watch?v=hi4yJjPZ7RE
 
 ## Installation
 
-For detailed configuration options, please refer to our [documentation](https://mrnewbs-scrips.gitbook.io/guide).
+For detailed configuration options, please refer to our [documentation](https://mrnewb.github.io/docs).
 
 ---
 

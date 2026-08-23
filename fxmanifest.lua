@@ -1,34 +1,61 @@
 fx_version 'cerulean'
 game 'gta5'
 lua54 'yes'
+
 name 'MrNewbSpookySeason'
-description 'A comprehensive Halloween experience by MrNewb featuring ghost hunting, pumpkin searches, grave digging, reward shops, decorations, and trick-or-treating. Built with clean architecture for a hauntingly good time!'
+description 'A comprehensive Halloween experience by MrNewb featuring ghost hunting, pumpkin searches, grave digging, reward shops, decorations, and trick-or-treating.'
 author 'MrNewb'
-version '0.1.3'
+version '0.2.0'
+
+ox_libs {
+	'locale',
+}
 
 shared_scripts {
-	'core/init.lua',
-	'configs/**/*.lua',
+	'@ox_lib/init.lua',
+	'@Newb_Bridge/import.lua',
+	'configs/config.lua',
+	'resource/shared/init.lua',
 }
 
 client_scripts {
-	'modules/**/client.lua',
+	'resource/open/client/*.lua',
+	'resource/client/decorations.lua',
+	'resource/client/shops.lua',
+	'resource/client/pumpkins.lua',
+	'resource/client/graves.lua',
+	'resource/client/ghosthunt.lua',
+	'resource/client/trickortreat.lua',
+	'resource/client/usables.lua',
+	'resource/client/sync.lua',
 }
 
 server_scripts {
-	'modules/**/server.lua',
+	'configs/sv_config.lua',
+	'resource/server/rewards.lua',
+	'resource/server/pumpkins.lua',
+	'resource/server/graves.lua',
+	'resource/server/ghosthunt.lua',
+	'resource/server/trickortreat.lua',
+	'resource/server/shops.lua',
+	'resource/server/usables.lua',
+	'resource/server/sync.lua',
 }
 
 files {
-	'locales/*.*',
+	'locales/*.json',
 }
 
 dependencies {
 	'/server:6116',
 	'/onesync',
-	'community_bridge',
+	'ox_lib',
+	'Newb_Bridge',
 }
 
 escrow_ignore {
-	'**/*.lua',
+	'configs/*.lua',
+	'locales/*.json',
+	'resource/open/**/*.lua',
+	'resource/**/*.lua',
 }
