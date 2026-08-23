@@ -30,11 +30,6 @@ end
 local function knockOnHouse(house)
 	if knockingOnHouse then return end
 	knockingOnHouse = true
-	bridge.target.removeZone(('MrNewbsSpookySeason:trickortreat:%s'):format(house.id))
-	if houseBlips[house.id] and DoesBlipExist(houseBlips[house.id]) then
-		RemoveBlip(houseBlips[house.id])
-		houseBlips[house.id] = nil
-	end
 
 	local playerPed = cache.ped
 	lib.requestAnimDict('timetable@jimmy@doorknock@')
@@ -57,9 +52,16 @@ local function knockOnHouse(house)
 	RemoveAnimDict('timetable@jimmy@doorknock@')
 	RemoveAnimDict('mp_common')
 
-	lib.callback.await('MrNewbsSpookySeason:Callback:ClaimTrickOrTreat', false, house.id)
+	local success = lib.callback.await('MrNewbsSpookySeason:Callback:ClaimTrickOrTreat', false, house.id)
 	fadeAndDeletePed(housePed, house.targetPoint)
-	houseIds[house.id] = nil
+	if success then
+		bridge.target.removeZone(('MrNewbsSpookySeason:trickortreat:%s'):format(house.id))
+		if houseBlips[house.id] and DoesBlipExist(houseBlips[house.id]) then
+			RemoveBlip(houseBlips[house.id])
+			houseBlips[house.id] = nil
+		end
+		houseIds[house.id] = nil
+	end
 	knockingOnHouse = false
 end
 

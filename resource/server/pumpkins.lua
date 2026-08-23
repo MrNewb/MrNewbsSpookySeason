@@ -31,7 +31,7 @@ function GetPumpkinClientList(src)
 end
 
 lib.callback.register('MrNewbsSpookySeason:Callback:ClaimPumpkin', function(src, pumpkinId)
-	if type(pumpkinId) ~= 'number' then return false end
+	if type(pumpkinId) ~= 'number' or pumpkinId ~= math.floor(pumpkinId) then return false end
 
 	local pumpkin = pumpkinObjects[pumpkinId]
 	if not pumpkin then return false end

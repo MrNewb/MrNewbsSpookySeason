@@ -1,4 +1,5 @@
 local graveIds = {}
+local spawnedZombies = {}
 local zombieGroup = `ZOMBIE`
 local diggingGrave = false
 
@@ -45,6 +46,8 @@ local function spawnZombie(position)
 		SetEntityAsNoLongerNeeded(zombie)
 		DeleteEntity(zombie)
 	end)
+
+	spawnedZombies[#spawnedZombies + 1] = zombie
 end
 
 local function digGrave(graveId, position)
@@ -121,7 +124,14 @@ function RemoveSpookyGraves()
 	for graveId in pairs(graveIds) do
 		bridge.target.removeZone(('MrNewbsSpookySeason:grave:%s'):format(graveId))
 	end
+	for i = 1, #spawnedZombies do
+		local zombie = spawnedZombies[i]
+		if zombie and DoesEntityExist(zombie) then
+			DeleteEntity(zombie)
+		end
+	end
 	graveIds = {}
+	spawnedZombies = {}
 	diggingGrave = false
 end
 

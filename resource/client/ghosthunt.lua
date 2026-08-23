@@ -3,7 +3,7 @@ local ghostEntities = {}
 local ghostParticles = {}
 
 function RegisterSpookyGhostHunts(list)
-	if GetResourceState('pengu_digiscanner') == 'missing' or not list or #list == 0 then return end
+	if GetResourceState('pengu_digiscanner') ~= 'started' or not list or #list == 0 then return end
 
 	for i = 1, #list do
 		local hunt = list[i]

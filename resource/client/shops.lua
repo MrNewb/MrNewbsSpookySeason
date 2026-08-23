@@ -39,12 +39,12 @@ local function openBuyMenu(shopId, inventory)
 				end
 
 				local input = bridge.inputs.inputdialog(label, {
-					{ type = 'slider', label = locale('Shop.InputPurchaseAmount'), min = 0, max = math.floor(tokenCount / price), step = 1 },
+					{ type = 'slider', label = locale('Shop.InputPurchaseAmount'), min = 1, max = math.min(100, math.floor(tokenCount / price)), step = 1 },
 				})
 				if not input or not input[1] then return end
 
 				local amount = tonumber(input[1])
-				if not amount or amount <= 0 then
+				if not amount or amount <= 0 or amount > 100 then
 					bridge.notifications.notify({ description = locale('Shop.InvalidAmount'), type = 'error', duration = 5000 })
 					return
 				end

@@ -1,7 +1,7 @@
 local ghostHunt = nil
 
 local function buildGhostHunt()
-	if GetResourceState('pengu_digiscanner') == 'missing' then return end
+	if GetResourceState('pengu_digiscanner') ~= 'started' then return end
 	if not Config.GhostHunts or #Config.GhostHunts == 0 then return end
 
 	local hunt = Config.GhostHunts[math.random(1, #Config.GhostHunts)]
@@ -30,7 +30,7 @@ end
 
 RegisterNetEvent('MrNewbsSpookySeason:Server:GhostHunting:ClaimLoot', function(ghostId)
 	local src = source
-	if type(ghostId) ~= 'number' or not ghostHunt or ghostHunt.id ~= ghostId then return end
+	if type(ghostId) ~= 'number' or ghostId ~= math.floor(ghostId) or not ghostHunt or ghostHunt.id ~= ghostId then return end
 	if not IsSpookyPlayerNear(src, ghostHunt.position, 10.0) then return end
 
 	local identifier = bridge.framework.getIdentifier(src)

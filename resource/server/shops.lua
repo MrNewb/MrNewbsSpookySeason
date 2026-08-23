@@ -1,14 +1,22 @@
+local lastPurchaseAt = {}
+
+AddEventHandler('playerDropped', function()
+	lastPurchaseAt[source] = nil
+end)
+
 RegisterNetEvent('MrNewbsSpookySeason:Server:Shop:PurchaseItem', function(shopId, itemName, amount)
 	local src = source
-	if type(shopId) ~= 'string' or type(itemName) ~= 'string' or itemName == '' then return end
+	if type(shopId) ~= 'string' or shopId == '' or #shopId > 32 then return end
+	if type(itemName) ~= 'string' or itemName == '' or #itemName > 64 then return end
 
-	amount = tonumber(amount)
-	if not amount then return end
-	amount = math.floor(amount)
-	if amount <= 0 then
+	amount = math.floor(tonumber(amount) or 0)
+	if amount <= 0 or amount > 100 then
 		bridge.notifications.notify(src, { description = locale('Shop.InvalidAmount'), type = 'error', duration = 5000 })
 		return
 	end
+
+	local now = GetGameTimer()
+	if lastPurchaseAt[src] and now - lastPurchaseAt[src] < 1000 then return end
 
 	local shop = Config.Shops[shopId]
 	if not shop or not shop.inventory then
@@ -17,7 +25,7 @@ RegisterNetEvent('MrNewbsSpookySeason:Server:Shop:PurchaseItem', function(shopId
 	end
 
 	local priceEach = shop.inventory[itemName]
-	if not priceEach then
+	if type(priceEach) ~= 'number' or priceEach < 1 then
 		bridge.notifications.notify(src, { description = locale('Shop.ItemNotForSale'), type = 'error', duration = 5000 })
 		return
 	end
@@ -40,5 +48,11 @@ RegisterNetEvent('MrNewbsSpookySeason:Server:Shop:PurchaseItem', function(shopId
 		return
 	end
 
-	bridge.inventory.addItem(src, itemName, amount)
+	if not bridge.inventory.addItem(src, itemName, amount) then
+		bridge.inventory.addItem(src, 'event_token', totalPrice)
+		bridge.notifications.notify(src, { description = locale('Shop.CannotCarry'), type = 'error', duration = 5000 })
+		return
+	end
+
+	lastPurchaseAt[src] = now
 end)

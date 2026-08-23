@@ -33,11 +33,11 @@ function GetTrickOrTreatClientList(src)
 end
 
 lib.callback.register('MrNewbsSpookySeason:Callback:ClaimTrickOrTreat', function(src, houseId)
-	if type(houseId) ~= 'number' then return false end
+	if type(houseId) ~= 'number' or houseId ~= math.floor(houseId) then return false end
 
 	local house = trickOrTreatObjects[houseId]
 	if not house then return false end
-	if not IsSpookyPlayerNear(src, house.pedSpawn, 5.0) then return false end
+	if not IsSpookyPlayerNear(src, house.targetPoint, 5.0) then return false end
 
 	local identifier = bridge.framework.getIdentifier(src)
 	if not identifier or house.claimed[identifier] then return false end

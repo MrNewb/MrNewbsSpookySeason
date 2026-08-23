@@ -29,7 +29,7 @@ function GetGraveClientList(src)
 end
 
 lib.callback.register('MrNewbsSpookySeason:Callback:ClaimGrave', function(src, graveId)
-	if type(graveId) ~= 'number' then return false end
+	if type(graveId) ~= 'number' or graveId ~= math.floor(graveId) then return false end
 
 	local grave = graveObjects[graveId]
 	if not grave then return false end

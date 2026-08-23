@@ -26,7 +26,7 @@ Config.Shops = {
 	},
 }
 
-if GetResourceState('pengu_digiscanner') ~= 'missing' then
+if GetResourceState('pengu_digiscanner') == 'started' then
 	if GetResourceState('ox_inventory') ~= 'missing' then
 		Config.Shops.SpookyShop.inventory.WEAPON_DIGISCANNER = 15
 	else

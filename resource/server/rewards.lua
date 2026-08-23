@@ -23,8 +23,7 @@ function GrantSpookyReward(src, reward)
 	end
 
 	if reward.rewardType == 'item' then
-		bridge.inventory.addItem(src, reward.name, count, reward.metadata)
-		return true
+		return bridge.inventory.addItem(src, reward.name, count, reward.metadata) and true or false
 	end
 
 	return false
