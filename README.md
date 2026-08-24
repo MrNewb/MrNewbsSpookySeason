@@ -1,48 +1,45 @@
-# 🎃MrNewb's Spooky Season
+# MrNewb's Spooky Season
 
-A comprehensive Halloween-themed script featuring ghost hunting, spooky activities, and seasonal events for your FiveM server.
+Halloween event: ghost hunts, pumpkin searches, grave digging, trick-or-treat, decorations, and an event-token shop.
 
-## Documentation
+[Documentation](https://mrnewb.github.io/docs/mrnewbspookyseason) · [Install guide](https://mrnewb.github.io/docs/mrnewbspookyseason/install) · [Tebex](https://mrnewbscripts.tebex.io/) · [Discord](https://discord.gg/mrnewbscripts) · [Preview](https://www.youtube.com/watch?v=hi4yJjPZ7RE)
 
-For detailed installation and configuration instructions, please visit our documentation:
+[![MrNewbSpookySeason preview](https://img.youtube.com/vi/hi4yJjPZ7RE/hqdefault.jpg)](https://www.youtube.com/watch?v=hi4yJjPZ7RE)
 
-**[Official Documentation](https://mrnewb.github.io/docs)**
-
-## Support
-
-Need help? We're here to assist you!
-
-- **[Discord Server](https://discord.gg/mrnewbscripts)** - Join our community for support and updates
-
-## More Scripts
-
-Check out our other premium scripts:
-
-**[MrNewb Scripts Store](https://mrnewbscripts.tebex.io/)**
+<img width="1920" alt="Spooky Season" src="https://github.com/user-attachments/assets/f26c2bbd-2d8f-40a7-8cec-2c5360a57c15" />
+<img width="1920" alt="Spooky Season shop" src="https://github.com/user-attachments/assets/f224813f-d213-40d7-9c9c-6ea3bf0e7e3f" />
+<img width="1920" alt="Spooky Season hunt" src="https://github.com/user-attachments/assets/711a0e5f-6a48-4f37-97db-dd044919132a" />
 
 ## Features
 
-- Ghost hunting activities
-- Seasonal events and rewards
-- Highly configurable
-- Interactive gameplay elements
-- Event token rewards system
+- Pumpkin searches, grave digging, and trick-or-treat door knocks
+- Ghost hunts (needs [pengu_digiscanner](https://github.com/PenguScript/pengu_digiscanner))
+- Event-token shop (`pumpkin_basket` / `rotten_casket`, optional digiscanner)
+- Usable crates that roll their own loot tables
+- Optional Halloween weather around shops
+- Seasonal decorations as spawned props
+- Loot tables and scavenger coords stay in the **server-only** `sv_config`
 
+## Install
 
+Needs [ox_lib](https://github.com/overextended/ox_lib) and [Newb_Bridge](https://github.com/MrNewb/Newb_Bridge). Keep the folder named `MrNewbsSpookySeason`. Items, images, and start order: [install guide](https://mrnewb.github.io/docs/mrnewbspookyseason/install).
 
-<img width="1920" height="1080" alt="218_20251011140155_1" src="https://github.com/user-attachments/assets/f26c2bbd-2d8f-40a7-8cec-2c5360a57c15" />
-<img width="1920" height="1080" alt="218_20251011140151_1" src="https://github.com/user-attachments/assets/f224813f-d213-40d7-9c9c-6ea3bf0e7e3f" />
-<img width="1920" height="1080" alt="218_20251011140121_1" src="https://github.com/user-attachments/assets/711a0e5f-6a48-4f37-97db-dd044919132a" />
-<img width="1920" height="1080" alt="218_20251011140027_1" src="https://github.com/user-attachments/assets/361b0e93-6e05-4b90-a3ff-088c4cf2cf9b" />
-<img width="1920" height="1080" alt="218_20251011135948_1" src="https://github.com/user-attachments/assets/5206bb07-805f-43c2-bcc0-698cd23e489f" />
-<img width="1920" height="1080" alt="218_20251011140200_1" src="https://github.com/user-attachments/assets/82212ba7-6480-4952-8b5d-6dae40e284cf" />
+```cfg
+ensure ox_lib
+ensure Newb_Bridge
+ensure pengu_digiscanner
+ensure MrNewbsSpookySeason
+```
 
-https://www.youtube.com/watch?v=hi4yJjPZ7RE
+`pengu_digiscanner` is only required for ghost hunts. Pumpkins, graves, trick-or-treat, shops, and crates still run without it.
 
-## Installation
+Copy `[INSTALL]/images/` into your inventory images folder. Register `event_token`, `candy_corn`, `chocolate_bar`, `pumpkin_basket`, and `rotten_casket`. Do not add `server.export`.
 
-For detailed configuration options, please refer to our [documentation](https://mrnewb.github.io/docs).
+## Config
 
----
+| File | Contents |
+| --- | --- |
+| `configs/config.lua` | Weather toggle, trick-or-treat blips, shops, decorations |
+| `configs/sv_config.lua` | Server-only loot pools and scavenger locations |
 
-**Made with love by MrNewb Scripts**
+Field tables: [documentation](https://mrnewb.github.io/docs/mrnewbspookyseason).
