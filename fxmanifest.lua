@@ -5,7 +5,7 @@ lua54 'yes'
 name 'MrNewbSpookySeason'
 description 'A comprehensive Halloween experience by MrNewb featuring ghost hunting, pumpkin searches, grave digging, reward shops, decorations, and trick-or-treating.'
 author 'MrNewb'
-version '0.2.1'
+version '0.2.2'
 
 ox_libs {
 	'locale',

@@ -1,7 +1,8 @@
 {
 	"Notifications": {
 		"TrickNotification": "HA! Je bent beetgenomen!",
-		"TreatNotification": "Je hebt een snoepje gevonden!"
+		"TreatNotification": "Je hebt een snoepje gevonden!",
+		"Canceled": "Je hebt de actie geannuleerd."
 	},
 	"Target": {
 		"ShopLabel": "Griezelige winkel",
@@ -13,7 +14,8 @@
 		"TrickKnockLabel": "Snoep of je leven",
 		"TrickKnockIcon": "fa-solid fa-hand-fist",
 		"TrickKnockIconColor": "orange",
-		"TrickKnockBlip": "Snoep of je leven"
+		"TrickKnockBlip": "Snoep of je leven",
+		"GraveLabel": "Graf graven"
 	},
 	"Items": {
 		"EventTokenDescription": "Een token voor de evenementenwinkel tijdens het Halloween-evenement 2025."
@@ -35,7 +37,9 @@
 		"PurchaseAmount": "Aankoopbedrag",
 		"InputPurchaseAmount": "Voer het bedrag in dat je wilt kopen:",
 		"ItemNotForSale": "Dit item is niet te koop.",
-		"NotEnoughTokens": "Je hebt niet genoeg evenement tokens om deze aankoop af te ronden."
+		"NotEnoughTokens": "Je hebt niet genoeg evenement tokens om deze aankoop af te ronden.",
+		"InvalidShop": "Deze winkel is niet beschikbaar.",
+		"CannotCarry": "Je kunt niet zoveel voorwerpen dragen."
 	},
 	"GhostHunt": {
 		"InteractMessage": "Bevrijdt de ziel [E]"

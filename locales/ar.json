@@ -1,7 +1,8 @@
 {
 	"Notifications": {
 		"TrickNotification": "هاها! لقد تم خداعك!",
-		"TreatNotification": "لقد وجدت حلوى!"
+		"TreatNotification": "لقد وجدت حلوى!",
+		"Canceled": "لقد ألغيت الإجراء."
 	},
 	"Target": {
 		"ShopLabel": "متجر مخيف",
@@ -13,7 +14,8 @@
 		"TrickKnockLabel": "حيلة أم حلوى",
 		"TrickKnockIcon": "fa-solid fa-hand-fist",
 		"TrickKnockIconColor": "orange",
-		"TrickKnockBlip": "حيلة أم حلوى"
+		"TrickKnockBlip": "حيلة أم حلوى",
+		"GraveLabel": "احفر القبر"
 	},
 	"Items": {
 		"EventTokenDescription": "رمز للمتجر الحدث خلال حدث الهالوين 2025."
@@ -35,7 +37,9 @@
 		"PurchaseAmount": "مبلغ الشراء",
 		"InputPurchaseAmount": "أدخل المبلغ الذي تريد شراءه:",
 		"ItemNotForSale": "هذا العنصر غير معروض للبيع.",
-		"NotEnoughTokens": "ليس لديك رموز أحداث كافية لإتمام هذا الشراء."
+		"NotEnoughTokens": "ليس لديك رموز أحداث كافية لإتمام هذا الشراء.",
+		"InvalidShop": "هذا المتجر غير متاح.",
+		"CannotCarry": "لا يمكنك حمل هذا العدد من العناصر."
 	},
 	"GhostHunt": {
 		"InteractMessage": "حرر الروح [E]"

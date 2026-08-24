@@ -1,7 +1,8 @@
 {
 	"Notifications": {
 		"TrickNotification": "ΧΑ! Σε ξεγέλασαν!",
-		"TreatNotification": "Βρήκες ένα γλυκό!"
+		"TreatNotification": "Βρήκες ένα γλυκό!",
+		"Canceled": "Ακυρώσατε την ενέργεια."
 	},
 	"Target": {
 		"ShopLabel": "Τρομακτικό κατάστημα",
@@ -13,7 +14,8 @@
 		"TrickKnockLabel": "Φάρσα ή γλυκό",
 		"TrickKnockIcon": "fa-solid fa-hand-fist",
 		"TrickKnockIconColor": "orange",
-		"TrickKnockBlip": "Φάρσα ή γλυκό"
+		"TrickKnockBlip": "Φάρσα ή γλυκό",
+		"GraveLabel": "Σκάψε τον τάφο"
 	},
 	"Items": {
 		"EventTokenDescription": "Ένα token για το κατάστημα εκδήλωσης κατά τη διάρκεια της εκδήλωσης Halloween 2025."
@@ -35,7 +37,9 @@
 		"PurchaseAmount": "Ποσό αγοράς",
 		"InputPurchaseAmount": "Εισάγετε το ποσό που θέλετε να αγοράσετε:",
 		"ItemNotForSale": "Αυτό το αντικείμενο δεν είναι προς πώληση.",
-		"NotEnoughTokens": "Δεν έχεις αρκετά tokens εκδήλωσης για να ολοκληρώσεις αυτή την αγορά."
+		"NotEnoughTokens": "Δεν έχεις αρκετά tokens εκδήλωσης για να ολοκληρώσεις αυτή την αγορά.",
+		"InvalidShop": "Αυτό το κατάστημα δεν είναι διαθέσιμο.",
+		"CannotCarry": "Δεν μπορείτε να μεταφέρετε τόσα αντικείμενα."
 	},
 	"GhostHunt": {
 		"InteractMessage": "Απελευθέρωσε την ψυχή [E]"

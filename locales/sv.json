@@ -1,7 +1,8 @@
 {
 	"Notifications": {
 		"TrickNotification": "HA! Du blev lurad!",
-		"TreatNotification": "Du hittade en godis!"
+		"TreatNotification": "Du hittade en godis!",
+		"Canceled": "Du avbröt handlingen."
 	},
 	"Target": {
 		"ShopLabel": "Skrämmande butik",
@@ -13,7 +14,8 @@
 		"TrickKnockLabel": "Bus eller godis",
 		"TrickKnockIcon": "fa-solid fa-hand-fist",
 		"TrickKnockIconColor": "orange",
-		"TrickKnockBlip": "Bus eller godis"
+		"TrickKnockBlip": "Bus eller godis",
+		"GraveLabel": "Gräv grav"
 	},
 	"Items": {
 		"EventTokenDescription": "En token för eventbutiken under Halloween-eventet 2025."
@@ -35,7 +37,9 @@
 		"PurchaseAmount": "Köpbelopp",
 		"InputPurchaseAmount": "Ange beloppet du vill köpa:",
 		"ItemNotForSale": "Detta föremål är inte till salu.",
-		"NotEnoughTokens": "Du har inte tillräckligt med eventtokens för att slutföra detta köp."
+		"NotEnoughTokens": "Du har inte tillräckligt med eventtokens för att slutföra detta köp.",
+		"InvalidShop": "Den här butiken är inte tillgänglig.",
+		"CannotCarry": "Du kan inte bära så många föremål."
 	},
 	"GhostHunt": {
 		"InteractMessage": "Befria själen [E]"

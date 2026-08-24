@@ -1,7 +1,8 @@
 {
 	"Notifications": {
 		"TrickNotification": "HA! Sinut huijattiin!",
-		"TreatNotification": "Löysit herkun!"
+		"TreatNotification": "Löysit herkun!",
+		"Canceled": "Peruutit toiminnon."
 	},
 	"Target": {
 		"ShopLabel": "Pelottava kauppa",
@@ -13,7 +14,8 @@
 		"TrickKnockLabel": "Karkki vai kepponen",
 		"TrickKnockIcon": "fa-solid fa-hand-fist",
 		"TrickKnockIconColor": "orange",
-		"TrickKnockBlip": "Karkki vai kepponen"
+		"TrickKnockBlip": "Karkki vai kepponen",
+		"GraveLabel": "Kaiva hauta"
 	},
 	"Items": {
 		"EventTokenDescription": "Token tapahtumamyymälää varten 2025 Halloween-tapahtuman aikana."
@@ -35,7 +37,9 @@
 		"PurchaseAmount": "Ostomäärä",
 		"InputPurchaseAmount": "Syötä määrä, jonka haluat ostaa:",
 		"ItemNotForSale": "Tämä esine ei ole myynnissä.",
-		"NotEnoughTokens": "Sinulla ei ole tarpeeksi tapahtuma-tokeneita tämän oston suorittamiseen."
+		"NotEnoughTokens": "Sinulla ei ole tarpeeksi tapahtuma-tokeneita tämän oston suorittamiseen.",
+		"InvalidShop": "Tämä kauppa ei ole käytettävissä.",
+		"CannotCarry": "Et voi kantaa niin montaa tavaraa."
 	},
 	"GhostHunt": {
 		"InteractMessage": "Vapauta sielu [E]"

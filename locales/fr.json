@@ -1,7 +1,8 @@
 {
 	"Notifications": {
 		"TrickNotification": "HA ! Vous avez été dupé !",
-		"TreatNotification": "Vous avez trouvé une friandise !"
+		"TreatNotification": "Vous avez trouvé une friandise !",
+		"Canceled": "Vous avez annulé l'action."
 	},
 	"Target": {
 		"ShopLabel": "Boutique Effrayante",
@@ -13,7 +14,8 @@
 		"TrickKnockLabel": "Des bonbons ou un sort",
 		"TrickKnockIcon": "fa-solid fa-hand-fist",
 		"TrickKnockIconColor": "orange",
-		"TrickKnockBlip": "Des bonbons ou un sort"
+		"TrickKnockBlip": "Des bonbons ou un sort",
+		"GraveLabel": "Creuser la tombe"
 	},
 	"Items": {
 		"EventTokenDescription": "Un jeton pour la boutique d'événement pendant l'événement Halloween 2025."
@@ -35,7 +37,9 @@
 		"PurchaseAmount": "Montant d'achat",
 		"InputPurchaseAmount": "Entrez le montant que vous souhaitez acheter :",
 		"ItemNotForSale": "Cet objet n'est pas à vendre.",
-		"NotEnoughTokens": "Vous n'avez pas assez de jetons d'événement pour compléter cet achat."
+		"NotEnoughTokens": "Vous n'avez pas assez de jetons d'événement pour compléter cet achat.",
+		"InvalidShop": "Cette boutique n'est pas disponible.",
+		"CannotCarry": "Vous ne pouvez pas porter autant d'objets."
 	},
 	"GhostHunt": {
 		"InteractMessage": "Libérer l'Âme [E]"

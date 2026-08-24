@@ -1,7 +1,8 @@
 {
 	"Notifications": {
 		"TrickNotification": "HA! Du ble lurt!",
-		"TreatNotification": "Du fant en godbit!"
+		"TreatNotification": "Du fant en godbit!",
+		"Canceled": "Du avbrøt handlingen."
 	},
 	"Target": {
 		"ShopLabel": "Skremmende butikk",
@@ -13,7 +14,8 @@
 		"TrickKnockLabel": "Knask eller knep",
 		"TrickKnockIcon": "fa-solid fa-hand-fist",
 		"TrickKnockIconColor": "orange",
-		"TrickKnockBlip": "Knask eller knep"
+		"TrickKnockBlip": "Knask eller knep",
+		"GraveLabel": "Grav grav"
 	},
 	"Items": {
 		"EventTokenDescription": "Et token for hendelsesbutikken under Halloween-hendelsen 2025."
@@ -35,7 +37,9 @@
 		"PurchaseAmount": "Kjøpsbeløp",
 		"InputPurchaseAmount": "Angi beløpet du ønsker å kjøpe:",
 		"ItemNotForSale": "Denne gjenstanden er ikke til salgs.",
-		"NotEnoughTokens": "Du har ikke nok hendelsestokens til å fullføre dette kjøpet."
+		"NotEnoughTokens": "Du har ikke nok hendelsestokens til å fullføre dette kjøpet.",
+		"InvalidShop": "Denne butikken er ikke tilgjengelig.",
+		"CannotCarry": "Du kan ikke bære så mange gjenstander."
 	},
 	"GhostHunt": {
 		"InteractMessage": "Befri sjelen [E]"

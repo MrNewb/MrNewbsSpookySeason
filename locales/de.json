@@ -1,7 +1,8 @@
 {
 	"Notifications": {
 		"TrickNotification": "HA! Du wurdest reingelegt!",
-		"TreatNotification": "Du hast eine Süßigkeit gefunden!"
+		"TreatNotification": "Du hast eine Süßigkeit gefunden!",
+		"Canceled": "Sie haben die Aktion abgebrochen."
 	},
 	"Target": {
 		"ShopLabel": "Gruseliger Shop",
@@ -13,7 +14,8 @@
 		"TrickKnockLabel": "Süßes oder Saures",
 		"TrickKnockIcon": "fa-solid fa-hand-fist",
 		"TrickKnockIconColor": "orange",
-		"TrickKnockBlip": "Süßes oder Saures"
+		"TrickKnockBlip": "Süßes oder Saures",
+		"GraveLabel": "Grab ausheben"
 	},
 	"Items": {
 		"EventTokenDescription": "Ein Token für den Event-Shop während des Halloween-Events 2025."
@@ -35,7 +37,9 @@
 		"PurchaseAmount": "Kaufbetrag",
 		"InputPurchaseAmount": "Gib den Betrag ein, den du kaufen möchtest:",
 		"ItemNotForSale": "Dieser Gegenstand ist nicht zum Verkauf.",
-		"NotEnoughTokens": "Du hast nicht genug Event-Token, um diesen Kauf abzuschließen."
+		"NotEnoughTokens": "Du hast nicht genug Event-Token, um diesen Kauf abzuschließen.",
+		"InvalidShop": "Dieser Laden ist nicht verfügbar.",
+		"CannotCarry": "Sie können nicht so viele Gegenstände tragen."
 	},
 	"GhostHunt": {
 		"InteractMessage": "Seele befreien [E]"

@@ -9,8 +9,8 @@ RegisterNetEvent('MrNewbsSpookySeason:Server:Shop:PurchaseItem', function(shopId
 	if type(shopId) ~= 'string' or shopId == '' or #shopId > 32 then return end
 	if type(itemName) ~= 'string' or itemName == '' or #itemName > 64 then return end
 
-	amount = math.floor(tonumber(amount) or 0)
-	if amount <= 0 or amount > 100 then
+	amount = tonumber(amount)
+	if not amount or amount ~= amount or amount % 1 ~= 0 or amount < 1 or amount > 100 then
 		bridge.notifications.notify(src, { description = locale('Shop.InvalidAmount'), type = 'error', duration = 5000 })
 		return
 	end
@@ -31,6 +31,7 @@ RegisterNetEvent('MrNewbsSpookySeason:Server:Shop:PurchaseItem', function(shopId
 	end
 
 	if not IsSpookyPlayerNear(src, shop.position, 5.0) then return end
+	lastPurchaseAt[src] = now
 
 	local totalPrice = priceEach * amount
 	if bridge.inventory.getItemCount(src, 'event_token') < totalPrice then
@@ -53,6 +54,4 @@ RegisterNetEvent('MrNewbsSpookySeason:Server:Shop:PurchaseItem', function(shopId
 		bridge.notifications.notify(src, { description = locale('Shop.CannotCarry'), type = 'error', duration = 5000 })
 		return
 	end
-
-	lastPurchaseAt[src] = now
 end)

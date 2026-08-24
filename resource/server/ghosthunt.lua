@@ -41,4 +41,7 @@ RegisterNetEvent('MrNewbsSpookySeason:Server:GhostHunting:ClaimLoot', function(g
 	TriggerClientEvent('MrNewbsSpookySeason:Client:GhostHunting:RitualComplete', src, ghostId)
 end)
 
-buildGhostHunt()
+AddEventHandler('onResourceStart', function(resourceName)
+	if GetCurrentResourceName() ~= resourceName then return end
+	buildGhostHunt()
+end)

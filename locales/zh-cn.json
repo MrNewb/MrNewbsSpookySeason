@@ -1,7 +1,8 @@
 {
 	"Notifications": {
 		"TrickNotification": "哈！你被耍了！",
-		"TreatNotification": "你找到了糖果！"
+		"TreatNotification": "你找到了糖果！",
+		"Canceled": "你取消了操作。"
 	},
 	"Target": {
 		"ShopLabel": "恐怖商店",
@@ -13,7 +14,8 @@
 		"TrickKnockLabel": "不给糖就捣蛋",
 		"TrickKnockIcon": "fa-solid fa-hand-fist",
 		"TrickKnockIconColor": "orange",
-		"TrickKnockBlip": "不给糖就捣蛋"
+		"TrickKnockBlip": "不给糖就捣蛋",
+		"GraveLabel": "挖掘坟墓"
 	},
 	"Items": {
 		"EventTokenDescription": "2025年万圣节活动期间活动商店的代币。"
@@ -35,7 +37,9 @@
 		"PurchaseAmount": "购买数量",
 		"InputPurchaseAmount": "输入你想要购买的数量：",
 		"ItemNotForSale": "该物品不出售。",
-		"NotEnoughTokens": "你没有足够的活动代币来完成此次购买。"
+		"NotEnoughTokens": "你没有足够的活动代币来完成此次购买。",
+		"InvalidShop": "该商店不可用。",
+		"CannotCarry": "你无法携带这么多物品。"
 	},
 	"GhostHunt": {
 		"InteractMessage": "释放灵魂 [E]"

@@ -1,7 +1,8 @@
 {
 	"Notifications": {
 		"TrickNotification": "HA! Byl jste oklamán!",
-		"TreatNotification": "Našli jste pamlsek!"
+		"TreatNotification": "Našli jste pamlsek!",
+		"Canceled": "Zrušil jsi akci."
 	},
 	"Target": {
 		"ShopLabel": "Strašidelný obchod",
@@ -13,7 +14,8 @@
 		"TrickKnockLabel": "Koledování",
 		"TrickKnockIcon": "fa-solid fa-hand-fist",
 		"TrickKnockIconColor": "orange",
-		"TrickKnockBlip": "Koledování"
+		"TrickKnockBlip": "Koledování",
+		"GraveLabel": "Vykopat hrob"
 	},
 	"Items": {
 		"EventTokenDescription": "Token pro obchod událostí během události Halloween 2025."
@@ -35,7 +37,9 @@
 		"PurchaseAmount": "Částka nákupu",
 		"InputPurchaseAmount": "Zadejte částku, kterou si přejete koupit:",
 		"ItemNotForSale": "Tento předmět není na prodej.",
-		"NotEnoughTokens": "Nemáte dostatek tokenů událostí k dokončení tohoto nákupu."
+		"NotEnoughTokens": "Nemáte dostatek tokenů událostí k dokončení tohoto nákupu.",
+		"InvalidShop": "Tento obchod není dostupný.",
+		"CannotCarry": "Tolik předmětů neuneseš."
 	},
 	"GhostHunt": {
 		"InteractMessage": "Osvobodit duši [E]"

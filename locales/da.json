@@ -1,7 +1,8 @@
 {
 	"Notifications": {
 		"TrickNotification": "HA! Du er blevet narret!",
-		"TreatNotification": "Du fandt en godbid!"
+		"TreatNotification": "Du fandt en godbid!",
+		"Canceled": "Du annullerede handlingen."
 	},
 	"Target": {
 		"ShopLabel": "Uhyggelig butik",
@@ -13,7 +14,8 @@
 		"TrickKnockLabel": "Slik eller ballade",
 		"TrickKnockIcon": "fa-solid fa-hand-fist",
 		"TrickKnockIconColor": "orange",
-		"TrickKnockBlip": "Slik eller ballade"
+		"TrickKnockBlip": "Slik eller ballade",
+		"GraveLabel": "Grav grav"
 	},
 	"Items": {
 		"EventTokenDescription": "Et token til event-butikken under Halloween-eventet 2025."
@@ -35,7 +37,9 @@
 		"PurchaseAmount": "Købsbeløb",
 		"InputPurchaseAmount": "Indtast det beløb, du ønsker at købe:",
 		"ItemNotForSale": "Denne vare er ikke til salg.",
-		"NotEnoughTokens": "Du har ikke nok event-tokens til at gennemføre dette køb."
+		"NotEnoughTokens": "Du har ikke nok event-tokens til at gennemføre dette køb.",
+		"InvalidShop": "Denne butik er ikke tilgængelig.",
+		"CannotCarry": "Du kan ikke bære så mange genstande."
 	},
 	"GhostHunt": {
 		"InteractMessage": "Befri sjælen [E]"

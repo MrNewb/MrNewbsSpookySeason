@@ -1,7 +1,8 @@
 {
 	"Notifications": {
 		"TrickNotification": "हा! आपको धोखा दिया गया है!",
-		"TreatNotification": "आपको एक मिठाई मिली!"
+		"TreatNotification": "आपको एक मिठाई मिली!",
+		"Canceled": "आपने कार्रवाई रद्द कर दी।"
 	},
 	"Target": {
 		"ShopLabel": "डरावनी दुकान",
@@ -13,7 +14,8 @@
 		"TrickKnockLabel": "ट्रिक या ट्रीट",
 		"TrickKnockIcon": "fa-solid fa-hand-fist",
 		"TrickKnockIconColor": "orange",
-		"TrickKnockBlip": "ट्रिक या ट्रीट"
+		"TrickKnockBlip": "ट्रिक या ट्रीट",
+		"GraveLabel": "कब्र खोदें"
 	},
 	"Items": {
 		"EventTokenDescription": "2025 हैलोवीन इवेंट के दौरान इवेंट स्टोर के लिए एक टोकन।"
@@ -35,7 +37,9 @@
 		"PurchaseAmount": "खरीदारी की राशि",
 		"InputPurchaseAmount": "वह राशि दर्ज करें जो आप खरीदना चाहते हैं:",
 		"ItemNotForSale": "यह वस्तु बिक्री के लिए नहीं है।",
-		"NotEnoughTokens": "इस खरीदारी को पूरा करने के लिए आपके पास पर्याप्त इवेंट टोकन नहीं हैं।"
+		"NotEnoughTokens": "इस खरीदारी को पूरा करने के लिए आपके पास पर्याप्त इवेंट टोकन नहीं हैं।",
+		"InvalidShop": "यह दुकान उपलब्ध नहीं है।",
+		"CannotCarry": "आप इतनी सारी वस्तुएँ नहीं ले जा सकते।"
 	},
 	"GhostHunt": {
 		"InteractMessage": "आत्मा को मुक्त करें [E]"

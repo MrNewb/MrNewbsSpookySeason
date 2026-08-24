@@ -1,7 +1,8 @@
 {
 	"Notifications": {
 		"TrickNotification": "AH! Sei stato ingannato!",
-		"TreatNotification": "Hai trovato una caramella!"
+		"TreatNotification": "Hai trovato una caramella!",
+		"Canceled": "Hai annullato l'azione."
 	},
 	"Target": {
 		"ShopLabel": "Negozio Spettrale",
@@ -13,7 +14,8 @@
 		"TrickKnockLabel": "Dolcetto o Scherzetto",
 		"TrickKnockIcon": "fa-solid fa-hand-fist",
 		"TrickKnockIconColor": "orange",
-		"TrickKnockBlip": "Dolcetto o Scherzetto"
+		"TrickKnockBlip": "Dolcetto o Scherzetto",
+		"GraveLabel": "Scava la tomba"
 	},
 	"Items": {
 		"EventTokenDescription": "Un token per il negozio dell'evento durante l'evento Halloween 2025."
@@ -35,7 +37,9 @@
 		"PurchaseAmount": "Importo di acquisto",
 		"InputPurchaseAmount": "Inserisci l'importo che desideri acquistare:",
 		"ItemNotForSale": "Questo oggetto non è in vendita.",
-		"NotEnoughTokens": "Non hai abbastanza token evento per completare questo acquisto."
+		"NotEnoughTokens": "Non hai abbastanza token evento per completare questo acquisto.",
+		"InvalidShop": "Questo negozio non è disponibile.",
+		"CannotCarry": "Non puoi trasportare così tanti oggetti."
 	},
 	"GhostHunt": {
 		"InteractMessage": "Libera l'Anima [E]"

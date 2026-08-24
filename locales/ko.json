@@ -1,7 +1,8 @@
 {
 	"Notifications": {
 		"TrickNotification": "하! 속았지!",
-		"TreatNotification": "사탕을 찾았어요!"
+		"TreatNotification": "사탕을 찾았어요!",
+		"Canceled": "작업을 취소했습니다."
 	},
 	"Target": {
 		"ShopLabel": "무서운 상점",
@@ -13,7 +14,8 @@
 		"TrickKnockLabel": "트릭 오어 트릿",
 		"TrickKnockIcon": "fa-solid fa-hand-fist",
 		"TrickKnockIconColor": "orange",
-		"TrickKnockBlip": "트릭 오어 트릿"
+		"TrickKnockBlip": "트릭 오어 트릿",
+		"GraveLabel": "무덤 파기"
 	},
 	"Items": {
 		"EventTokenDescription": "2025 할로윈 이벤트 중 이벤트 상점용 토큰."
@@ -35,7 +37,9 @@
 		"PurchaseAmount": "구매 금액",
 		"InputPurchaseAmount": "구매하고 싶은 금액을 입력하세요:",
 		"ItemNotForSale": "이 아이템은 판매되지 않습니다.",
-		"NotEnoughTokens": "이 구매를 완료하기에 충분한 이벤트 토큰이 없습니다."
+		"NotEnoughTokens": "이 구매를 완료하기에 충분한 이벤트 토큰이 없습니다.",
+		"InvalidShop": "이 상점은 이용할 수 없습니다.",
+		"CannotCarry": "그렇게 많은 아이템을 가질 수 없습니다."
 	},
 	"GhostHunt": {
 		"InteractMessage": "영혼 해방하기 [E]"

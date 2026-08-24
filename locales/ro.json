@@ -1,7 +1,8 @@
 {
 	"Notifications": {
 		"TrickNotification": "HA! Ai fost păcălit!",
-		"TreatNotification": "Ai găsit o dulciură!"
+		"TreatNotification": "Ai găsit o dulciură!",
+		"Canceled": "Ai anulat acțiunea."
 	},
 	"Target": {
 		"ShopLabel": "Magazin Înfricoșător",
@@ -13,7 +14,8 @@
 		"TrickKnockLabel": "Dulce sau farsa",
 		"TrickKnockIcon": "fa-solid fa-hand-fist",
 		"TrickKnockIconColor": "orange",
-		"TrickKnockBlip": "Dulce sau farsa"
+		"TrickKnockBlip": "Dulce sau farsa",
+		"GraveLabel": "Sapă mormântul"
 	},
 	"Items": {
 		"EventTokenDescription": "Un token pentru magazinul evenimentului în timpul evenimentului Halloween 2025."
@@ -35,7 +37,9 @@
 		"PurchaseAmount": "Suma de cumpărare",
 		"InputPurchaseAmount": "Introdu suma pe care dorești să o cumperi:",
 		"ItemNotForSale": "Acest obiect nu este de vânzare.",
-		"NotEnoughTokens": "Nu ai suficiente token-uri de eveniment pentru a completa această cumpărare."
+		"NotEnoughTokens": "Nu ai suficiente token-uri de eveniment pentru a completa această cumpărare.",
+		"InvalidShop": "Acest magazin nu este disponibil.",
+		"CannotCarry": "Nu poți duce atât de multe obiecte."
 	},
 	"GhostHunt": {
 		"InteractMessage": "Eliberează sufletul [E]"

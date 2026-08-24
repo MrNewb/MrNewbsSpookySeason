@@ -1,7 +1,8 @@
 {
 	"Notifications": {
 		"TrickNotification": "HA! Buvai apgautas!",
-		"TreatNotification": "Radai saldumyną!"
+		"TreatNotification": "Radai saldumyną!",
+		"Canceled": "Atšaukėte veiksmą."
 	},
 	"Target": {
 		"ShopLabel": "Bauginanti parduotuvė",
@@ -13,7 +14,8 @@
 		"TrickKnockLabel": "Išdaiga ar saldainis",
 		"TrickKnockIcon": "fa-solid fa-hand-fist",
 		"TrickKnockIconColor": "orange",
-		"TrickKnockBlip": "Išdaiga ar saldainis"
+		"TrickKnockBlip": "Išdaiga ar saldainis",
+		"GraveLabel": "Kasti kapą"
 	},
 	"Items": {
 		"EventTokenDescription": "Žetonas renginio parduotuvei 2025 metų Helovyno renginio metu."
@@ -35,7 +37,9 @@
 		"PurchaseAmount": "Pirkimo suma",
 		"InputPurchaseAmount": "Įveskite sumą, kurią norite pirkti:",
 		"ItemNotForSale": "Šis daiktas neparduodamas.",
-		"NotEnoughTokens": "Neturite pakankamai renginio žetonų šiam pirkimui užbaigti."
+		"NotEnoughTokens": "Neturite pakankamai renginio žetonų šiam pirkimui užbaigti.",
+		"InvalidShop": "Ši parduotuvė nepasiekiama.",
+		"CannotCarry": "Negalite panešti tiek daiktų."
 	},
 	"GhostHunt": {
 		"InteractMessage": "Išlaisvinti sielą [E]"

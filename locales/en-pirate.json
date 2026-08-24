@@ -1,7 +1,8 @@
 {
 	"Notifications": {
 		"TrickNotification": "HARR! Ye've been bamboozled, ye scurvy dog!",
-		"TreatNotification": "Arrr! Ye found yerself some treasure!"
+		"TreatNotification": "Arrr! Ye found yerself some treasure!",
+		"Canceled": "Ye called off the deed."
 	},
 	"Target": {
 		"ShopLabel": "Cursed Merchant",
@@ -13,7 +14,8 @@
 		"TrickKnockLabel": "Plunder or Parley",
 		"TrickKnockIcon": "fa-solid fa-hand-fist",
 		"TrickKnockIconColor": "orange",
-		"TrickKnockBlip": "Plunder or Parley"
+		"TrickKnockBlip": "Plunder or Parley",
+		"GraveLabel": "Dig th' Grave"
 	},
 	"Items": {
 		"EventTokenDescription": "A cursed doubloon for the ghostly merchant during the 2025 Halloween plunderin'."
@@ -35,7 +37,9 @@
 		"PurchaseAmount": "Purchase Amount",
 		"InputPurchaseAmount": "Enter the amount ye wish to purchase:",
 		"ItemNotForSale": "This booty ain't for sale, matey.",
-		"NotEnoughTokens": "Ye don't have enough cursed doubloons to complete this purchase, ye broke pirate!"
+		"NotEnoughTokens": "Ye don't have enough cursed doubloons to complete this purchase, ye broke pirate!",
+		"InvalidShop": "This shoppe be shuttered, matey.",
+		"CannotCarry": "Yer hold cannot take that many."
 	},
 	"GhostHunt": {
 		"InteractMessage": "Free The Lost Soul [E]"

@@ -1,7 +1,8 @@
 {
 	"Notifications": {
 		"TrickNotification": "HA! Você foi enganado!",
-		"TreatNotification": "Você encontrou um doce!"
+		"TreatNotification": "Você encontrou um doce!",
+		"Canceled": "Você cancelou a ação."
 	},
 	"Target": {
 		"ShopLabel": "Loja Assombrada",
@@ -13,7 +14,8 @@
 		"TrickKnockLabel": "Doces ou Travessuras",
 		"TrickKnockIcon": "fa-solid fa-hand-fist",
 		"TrickKnockIconColor": "orange",
-		"TrickKnockBlip": "Doces ou Travessuras"
+		"TrickKnockBlip": "Doces ou Travessuras",
+		"GraveLabel": "Cavar túmulo"
 	},
 	"Items": {
 		"EventTokenDescription": "Um token para a loja do evento durante o evento de Halloween 2025."
@@ -35,7 +37,9 @@
 		"PurchaseAmount": "Quantidade de compra",
 		"InputPurchaseAmount": "Digite a quantidade que deseja comprar:",
 		"ItemNotForSale": "Este item não está à venda.",
-		"NotEnoughTokens": "Você não tem tokens de evento suficientes para completar esta compra."
+		"NotEnoughTokens": "Você não tem tokens de evento suficientes para completar esta compra.",
+		"InvalidShop": "Esta loja não está disponível.",
+		"CannotCarry": "Você não pode carregar tantos itens."
 	},
 	"GhostHunt": {
 		"InteractMessage": "Libertar a Alma [E]"

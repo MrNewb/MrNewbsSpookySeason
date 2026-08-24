@@ -1,7 +1,8 @@
 {
 	"Notifications": {
 		"TrickNotification": "HA! Jy is bedrieg!",
-		"TreatNotification": "Jy het 'n lekkerny gevind!"
+		"TreatNotification": "Jy het 'n lekkerny gevind!",
+		"Canceled": "Jy het die aksie gekanselleer."
 	},
 	"Target": {
 		"ShopLabel": "Spookwinkel",
@@ -13,7 +14,8 @@
 		"TrickKnockLabel": "Trick or Treat",
 		"TrickKnockIcon": "fa-solid fa-hand-fist",
 		"TrickKnockIconColor": "orange",
-		"TrickKnockBlip": "Trick or Treat"
+		"TrickKnockBlip": "Trick or Treat",
+		"GraveLabel": "Grawe Graf"
 	},
 	"Items": {
 		"EventTokenDescription": "'n Token vir die gebeurteniswinkel tydens die 2025 Halloween-gebeurtenis."
@@ -35,7 +37,9 @@
 		"PurchaseAmount": "Aankoop Bedrag",
 		"InputPurchaseAmount": "Voer die bedrag in wat jy wil koop:",
 		"ItemNotForSale": "Hierdie item is nie te koop nie.",
-		"NotEnoughTokens": "Jy het nie genoeg Gebeurtenis Tokens om hierdie aankoop te voltooi nie."
+		"NotEnoughTokens": "Jy het nie genoeg Gebeurtenis Tokens om hierdie aankoop te voltooi nie.",
+		"InvalidShop": "Hierdie winkel is nie beskikbaar nie.",
+		"CannotCarry": "Jy kan nie soveel items dra nie."
 	},
 	"GhostHunt": {
 		"InteractMessage": "Bevry Die Siel [E]"

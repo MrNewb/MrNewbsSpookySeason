@@ -1,7 +1,8 @@
 {
 	"Notifications": {
 		"TrickNotification": "HA! Zostałeś oszukany!",
-		"TreatNotification": "Znalazłeś słodycz!"
+		"TreatNotification": "Znalazłeś słodycz!",
+		"Canceled": "Anulowałeś akcję."
 	},
 	"Target": {
 		"ShopLabel": "Przerażający sklep",
@@ -13,7 +14,8 @@
 		"TrickKnockLabel": "Cukierek albo psikus",
 		"TrickKnockIcon": "fa-solid fa-hand-fist",
 		"TrickKnockIconColor": "orange",
-		"TrickKnockBlip": "Cukierek albo psikus"
+		"TrickKnockBlip": "Cukierek albo psikus",
+		"GraveLabel": "Kop grób"
 	},
 	"Items": {
 		"EventTokenDescription": "Token do sklepu eventowego podczas eventu Halloween 2025."
@@ -35,7 +37,9 @@
 		"PurchaseAmount": "Kwota zakupu",
 		"InputPurchaseAmount": "Wprowadź kwotę, którą chcesz kupić:",
 		"ItemNotForSale": "Ten przedmiot nie jest na sprzedaż.",
-		"NotEnoughTokens": "Nie masz wystarczająco tokenów eventowych, aby dokończyć ten zakup."
+		"NotEnoughTokens": "Nie masz wystarczająco tokenów eventowych, aby dokończyć ten zakup.",
+		"InvalidShop": "Ten sklep jest niedostępny.",
+		"CannotCarry": "Nie możesz nieść tylu przedmiotów."
 	},
 	"GhostHunt": {
 		"InteractMessage": "Uwolnij duszę [E]"

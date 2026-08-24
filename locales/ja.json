@@ -1,7 +1,8 @@
 {
 	"Notifications": {
 		"TrickNotification": "ハッ！だまされたね！",
-		"TreatNotification": "お菓子を見つけた！"
+		"TreatNotification": "お菓子を見つけた！",
+		"Canceled": "操作をキャンセルしました。"
 	},
 	"Target": {
 		"ShopLabel": "不気味なショップ",
@@ -13,7 +14,8 @@
 		"TrickKnockLabel": "トリックオアトリート",
 		"TrickKnockIcon": "fa-solid fa-hand-fist",
 		"TrickKnockIconColor": "orange",
-		"TrickKnockBlip": "トリックオアトリート"
+		"TrickKnockBlip": "トリックオアトリート",
+		"GraveLabel": "墓を掘る"
 	},
 	"Items": {
 		"EventTokenDescription": "2025年ハロウィンイベント中のイベントストア用のトークン。"
@@ -35,7 +37,9 @@
 		"PurchaseAmount": "購入金額",
 		"InputPurchaseAmount": "購入したい金額を入力してください：",
 		"ItemNotForSale": "このアイテムは販売されていません。",
-		"NotEnoughTokens": "この購入を完了するのに十分なイベントトークンがありません。"
+		"NotEnoughTokens": "この購入を完了するのに十分なイベントトークンがありません。",
+		"InvalidShop": "この店は利用できません。",
+		"CannotCarry": "そんなに多くのアイテムは持てません。"
 	},
 	"GhostHunt": {
 		"InteractMessage": "魂を解放する [E]"

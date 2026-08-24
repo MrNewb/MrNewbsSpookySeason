@@ -1,7 +1,8 @@
 {
 	"Notifications": {
 		"TrickNotification": "HA! Prevaren si!",
-		"TreatNotification": "Našao si slatkiš!"
+		"TreatNotification": "Našao si slatkiš!",
+		"Canceled": "Otkazao si radnju."
 	},
 	"Target": {
 		"ShopLabel": "Sablasna trgovina",
@@ -13,7 +14,8 @@
 		"TrickKnockLabel": "Trik ili poslastica",
 		"TrickKnockIcon": "fa-solid fa-hand-fist",
 		"TrickKnockIconColor": "orange",
-		"TrickKnockBlip": "Trik ili poslastica"
+		"TrickKnockBlip": "Trik ili poslastica",
+		"GraveLabel": "Iskopaj grob"
 	},
 	"Items": {
 		"EventTokenDescription": "Token za trgovinu događaja tijekom Halloween događaja 2025."
@@ -35,7 +37,9 @@
 		"PurchaseAmount": "Količina kupnje",
 		"InputPurchaseAmount": "Unesi količinu koju želiš kupiti:",
 		"ItemNotForSale": "Ovaj predmet nije na prodaju.",
-		"NotEnoughTokens": "Nemaš dovoljno tokena događaja za završetak ove kupnje."
+		"NotEnoughTokens": "Nemaš dovoljno tokena događaja za završetak ove kupnje.",
+		"InvalidShop": "Ova trgovina nije dostupna.",
+		"CannotCarry": "Ne možeš nositi toliko predmeta."
 	},
 	"GhostHunt": {
 		"InteractMessage": "Oslobodi dušu [E]"

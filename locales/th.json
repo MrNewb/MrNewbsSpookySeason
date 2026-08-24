@@ -1,7 +1,8 @@
 {
 	"Notifications": {
 		"TrickNotification": "ฮ่า! คุณถูกหลอกแล้ว!",
-		"TreatNotification": "คุณพบขนมแล้ว!"
+		"TreatNotification": "คุณพบขนมแล้ว!",
+		"Canceled": "คุณยกเลิกการกระทำ"
 	},
 	"Target": {
 		"ShopLabel": "ร้านค้าน่ากลัว",
@@ -13,7 +14,8 @@
 		"TrickKnockLabel": "ขนมหรือแกล้ง",
 		"TrickKnockIcon": "fa-solid fa-hand-fist",
 		"TrickKnockIconColor": "orange",
-		"TrickKnockBlip": "ขนมหรือแกล้ง"
+		"TrickKnockBlip": "ขนมหรือแกล้ง",
+		"GraveLabel": "ขุดหลุมศพ"
 	},
 	"Items": {
 		"EventTokenDescription": "โทเค็นสำหรับร้านค้าอีเวนต์ในระหว่างอีเวนต์ Halloween 2025"
@@ -35,7 +37,9 @@
 		"PurchaseAmount": "จำนวนที่ซื้อ",
 		"InputPurchaseAmount": "ป้อนจำนวนที่คุณต้องการซื้อ:",
 		"ItemNotForSale": "ของชิ้นนี้ไม่ได้วางขาย",
-		"NotEnoughTokens": "คุณมีโทเค็นอีเวนต์ไม่เพียงพอสำหรับการซื้อนี้"
+		"NotEnoughTokens": "คุณมีโทเค็นอีเวนต์ไม่เพียงพอสำหรับการซื้อนี้",
+		"InvalidShop": "ร้านนี้ไม่พร้อมให้บริการ",
+		"CannotCarry": "คุณพกไอเทมได้ไม่มากขนาดนั้น"
 	},
 	"GhostHunt": {
 		"InteractMessage": "ปลดปล่อยวิญญาณ [E]"

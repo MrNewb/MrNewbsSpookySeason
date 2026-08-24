@@ -1,7 +1,8 @@
 {
 	"Notifications": {
 		"TrickNotification": "HA! Kandırıldın!",
-		"TreatNotification": "Bir şeker buldun!"
+		"TreatNotification": "Bir şeker buldun!",
+		"Canceled": "İşlemi iptal ettin."
 	},
 	"Target": {
 		"ShopLabel": "Korkunç Mağaza",
@@ -13,7 +14,8 @@
 		"TrickKnockLabel": "Şaka mı şeker mi",
 		"TrickKnockIcon": "fa-solid fa-hand-fist",
 		"TrickKnockIconColor": "orange",
-		"TrickKnockBlip": "Şaka mı şeker mi"
+		"TrickKnockBlip": "Şaka mı şeker mi",
+		"GraveLabel": "Mezar Kaz"
 	},
 	"Items": {
 		"EventTokenDescription": "2025 Halloween etkinliği sırasında etkinlik mağazası için bir jeton."
@@ -35,7 +37,9 @@
 		"PurchaseAmount": "Satın alma miktarı",
 		"InputPurchaseAmount": "Satın almak istediğiniz miktarı girin:",
 		"ItemNotForSale": "Bu eşya satılık değil.",
-		"NotEnoughTokens": "Bu satın almayı tamamlamak için yeterli etkinlik jetonunuz yok."
+		"NotEnoughTokens": "Bu satın almayı tamamlamak için yeterli etkinlik jetonunuz yok.",
+		"InvalidShop": "Bu dükkân kullanılamıyor.",
+		"CannotCarry": "Bu kadar çok eşya taşıyamazsın."
 	},
 	"GhostHunt": {
 		"InteractMessage": "Ruhu Serbest Bırak [E]"

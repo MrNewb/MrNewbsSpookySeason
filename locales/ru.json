@@ -1,7 +1,8 @@
 {
 	"Notifications": {
 		"TrickNotification": "ХА! Тебя обманули!",
-		"TreatNotification": "Вы нашли угощение!"
+		"TreatNotification": "Вы нашли угощение!",
+		"Canceled": "Вы отменили действие."
 	},
 	"Target": {
 		"ShopLabel": "Жуткий магазин",
@@ -13,7 +14,8 @@
 		"TrickKnockLabel": "Кошелек или жизнь",
 		"TrickKnockIcon": "fa-solid fa-hand-fist",
 		"TrickKnockIconColor": "orange",
-		"TrickKnockBlip": "Кошелек или жизнь"
+		"TrickKnockBlip": "Кошелек или жизнь",
+		"GraveLabel": "Раскопать могилу"
 	},
 	"Items": {
 		"EventTokenDescription": "Токен для магазина событий во время события Хэллоуин 2025."
@@ -35,7 +37,9 @@
 		"PurchaseAmount": "Сумма покупки",
 		"InputPurchaseAmount": "Введите сумму, которую хотите купить:",
 		"ItemNotForSale": "Этот предмет не продается.",
-		"NotEnoughTokens": "У вас недостаточно токенов событий для совершения этой покупки."
+		"NotEnoughTokens": "У вас недостаточно токенов событий для совершения этой покупки.",
+		"InvalidShop": "Этот магазин недоступен.",
+		"CannotCarry": "Вы не можете нести столько предметов."
 	},
 	"GhostHunt": {
 		"InteractMessage": "Освободить душу [E]"

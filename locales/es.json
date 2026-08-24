@@ -1,7 +1,8 @@
 {
 	"Notifications": {
 		"TrickNotification": "¡JA! ¡Te han engañado!",
-		"TreatNotification": "¡Has encontrado una golosina!"
+		"TreatNotification": "¡Has encontrado una golosina!",
+		"Canceled": "Has cancelado la acción."
 	},
 	"Target": {
 		"ShopLabel": "Tienda Espeluznante",
@@ -13,7 +14,8 @@
 		"TrickKnockLabel": "Dulce o Travesura",
 		"TrickKnockIcon": "fa-solid fa-hand-fist",
 		"TrickKnockIconColor": "orange",
-		"TrickKnockBlip": "Dulce o Travesura"
+		"TrickKnockBlip": "Dulce o Travesura",
+		"GraveLabel": "Cavar tumba"
 	},
 	"Items": {
 		"EventTokenDescription": "Un token para la tienda del evento durante el evento de Halloween 2025."
@@ -35,7 +37,9 @@
 		"PurchaseAmount": "Cantidad de compra",
 		"InputPurchaseAmount": "Ingresa la cantidad que deseas comprar:",
 		"ItemNotForSale": "Este artículo no está a la venta.",
-		"NotEnoughTokens": "No tienes suficientes tokens de evento para completar esta compra."
+		"NotEnoughTokens": "No tienes suficientes tokens de evento para completar esta compra.",
+		"InvalidShop": "Esta tienda no está disponible.",
+		"CannotCarry": "No puedes llevar tantos objetos."
 	},
 	"GhostHunt": {
 		"InteractMessage": "Liberar el Alma [E]"
