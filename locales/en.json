@@ -2,7 +2,7 @@
 	"Notifications": {
 		"TrickNotification": "HA! Youve been tricked!",
 		"TreatNotification": "You found a treat!",
-		"Canceled": "You cancelled the action."
+		"Canceled": "Canceled."
 	},
 	"Target": {
 		"ShopLabel": "Spooky Shop",
@@ -26,20 +26,20 @@
 		"Title": "Spooky Shop",
 		"BuyItems": "Buy Items",
 		"BuyItemsIcon": "fa-solid fa-candy-cane",
-		"BuyItemsDescription": "Use your Event Tokens to get some exclusive Halloween items.",
+		"BuyItemsDescription": "Spend those tokens on halloween junk.",
 		"ShopIcon": "fa-solid fa-shop",
-		"ShopTitle": "Welcome to the Spooky Shop!",
-		"ShopDescription": "Welcome to the Spooky Shop! Use your Event Tokens to get some exclusive Halloween items.",
-		"BuyTitle": "Buy Items from the Spooky Shop",
-		"BuyDescription": "Select an item to purchase using your Event Tokens.",
-		"PurchaseTitle": "Purchase a %s for %s Event Tokens?",
-		"InvalidAmount": "Invalid amount entered.",
+		"ShopTitle": "Spooky Shop",
+		"ShopDescription": "Tokens in, candy and curses out.",
+		"BuyTitle": "Whats for sale",
+		"BuyDescription": "Pick something.",
+		"PurchaseTitle": "%s for %s tokens",
+		"InvalidAmount": "That aint a number.",
 		"PurchaseAmount": "Purchase Amount",
-		"InputPurchaseAmount": "Enter the amount you wish to purchase:",
-		"ItemNotForSale": "This item is not for sale.",
-		"NotEnoughTokens": "You do not have enough Event Tokens to complete this purchase.",
-		"InvalidShop": "This shop is not available.",
-		"CannotCarry": "You cannot carry that many items."
+		"InputPurchaseAmount": "How many?",
+		"ItemNotForSale": "Not selling that.",
+		"NotEnoughTokens": "Not enough tokens.",
+		"InvalidShop": "Shop aint here.",
+		"CannotCarry": "You cant carry that."
 	},
 	"GhostHunt": {
 		"InteractMessage": "Free The Soul [E]"
