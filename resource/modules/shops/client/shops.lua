@@ -28,7 +28,7 @@ local function buyShopItem(shopId, itemName, price, label)
 	local amount = tonumber(input[1])
 	if not amount or amount <= 0 or amount > 100 then return bridge.notifications.notify({ description = locale('Shop.InvalidAmount'), type = 'error', duration = 5000 }) end
 
-	TriggerServerEvent('MrNewbsSpookySeason:Server:Shop:PurchaseItem', shopId, itemName, amount)
+	TriggerServerEvent('MrNewbsSpookySeason:server:purchasedShopItem', shopId, itemName, amount)
 end
 
 local function openBuyMenu(shopId, inventory)

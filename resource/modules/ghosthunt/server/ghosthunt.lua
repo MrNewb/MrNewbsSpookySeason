@@ -28,7 +28,7 @@ function GetGhostHuntClientList(src)
 	return list
 end
 
-RegisterNetEvent('MrNewbsSpookySeason:Server:GhostHunting:ClaimLoot', function(ghostId)
+RegisterNetEvent('MrNewbsSpookySeason:server:claimedGhostLoot', function(ghostId)
 	local src = source
 	if type(ghostId) ~= 'number' or ghostId ~= math.floor(ghostId) or not ghostHunt or ghostHunt.id ~= ghostId then return end
 	if not IsSpookyPlayerNear(src, ghostHunt.position, 10.0) then return end
@@ -38,10 +38,10 @@ RegisterNetEvent('MrNewbsSpookySeason:Server:GhostHunting:ClaimLoot', function(g
 
 	ghostHunt.claimed[identifier] = true
 	GrantSpookyEventTokens(src, 5, 40)
-	TriggerClientEvent('MrNewbsSpookySeason:Client:GhostHunting:RitualComplete', src, ghostId)
+	TriggerClientEvent('MrNewbsSpookySeason:client:completedRitual', src, ghostId)
 end)
 
 AddEventHandler('onResourceStart', function(resourceName)
-	if GetCurrentResourceName() ~= resourceName then return end
+	if cache.resource ~= resourceName then return end
 	buildGhostHunt()
 end)

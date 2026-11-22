@@ -4,6 +4,8 @@ Halloween event: ghost hunts, pumpkin searches, grave digging, trick-or-treat, d
 
 [Documentation](https://mrnewb.github.io/docs/mrnewbspookyseason) · [Install guide](https://mrnewb.github.io/docs/mrnewbspookyseason/install) · [Tebex](https://mrnewbscripts.tebex.io/) · [Discord](https://discord.gg/mrnewbscripts) · [Preview](https://www.youtube.com/watch?v=hi4yJjPZ7RE)
 
+Documentation is available at https://mrnewb.github.io/docs/
+
 [![MrNewbSpookySeason preview](https://img.youtube.com/vi/hi4yJjPZ7RE/hqdefault.jpg)](https://www.youtube.com/watch?v=hi4yJjPZ7RE)
 
 <img width="1920" alt="Spooky Season" src="https://github.com/user-attachments/assets/f26c2bbd-2d8f-40a7-8cec-2c5360a57c15" />
@@ -39,7 +41,7 @@ Copy `[INSTALL]/images/` into your inventory images folder. Register `event_toke
 
 | File | Contents |
 | --- | --- |
-| `configs/config.lua` | Weather toggle, trick-or-treat blips, shops, decorations |
-| `configs/sv_config.lua` | Server-only loot pools and scavenger locations |
+| `resource/open/shared/config.lua` | Weather toggle, trick-or-treat blips, shops, decorations |
+| `resource/open/server/config.lua` | Server-only loot pools and scavenger locations |
 
 Field tables: [documentation](https://mrnewb.github.io/docs/mrnewbspookyseason).

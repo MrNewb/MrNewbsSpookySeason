@@ -7,8 +7,8 @@ function BuildSpookyInitPayload(src)
 	}
 end
 
-AddEventHandler('Newb_Bridge:server:playerLoad', function(src)
-	TriggerClientEvent('MrNewbsSpookySeason:Client:Initialize', src, BuildSpookyInitPayload(src))
+AddEventHandler('Newb_Bridge:server:playerLoaded', function(src)
+	TriggerClientEvent('MrNewbsSpookySeason:client:initialized', src, BuildSpookyInitPayload(src))
 end)
 
 lib.callback.register('MrNewbsSpookySeason:Callback:SyncClient', function(src)
@@ -18,6 +18,6 @@ lib.callback.register('MrNewbsSpookySeason:Callback:SyncClient', function(src)
 end)
 
 AddEventHandler('onResourceStart', function(resourceName)
-	if GetCurrentResourceName() ~= resourceName then return end
+	if cache.resource ~= resourceName then return end
 	exports[bridge.name]:VersionCheck('MrNewb/patchnotes', resourceName)
 end)

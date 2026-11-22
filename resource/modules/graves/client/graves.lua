@@ -136,7 +136,7 @@ function RemoveSpookyGraves()
 end
 
 AddEventHandler('onResourceStart', function(resourceName)
-	if GetCurrentResourceName() ~= resourceName then return end
+	if cache.resource ~= resourceName then return end
 	AddRelationshipGroup('ZOMBIE')
 	SetRelationshipBetweenGroups(5, `PLAYER`, zombieGroup)
 	SetRelationshipBetweenGroups(5, zombieGroup, `PLAYER`)

@@ -30,7 +30,7 @@ function RegisterSpookyGhostHunts(list)
 		})
 
 		exports.pengu_digiscanner:SetupDigiScanner(vector3(hunt.position.x, hunt.position.y, hunt.position.z), {
-			event = 'MrNewbsSpookySeason:Server:GhostHunting:ClaimLoot',
+			event = 'MrNewbsSpookySeason:server:claimedGhostLoot',
 			isServer = true,
 			args = hunt.id,
 			interact = {
@@ -127,7 +127,7 @@ local function playGhostRitual(ghostId)
 	ghostEntities[ghostId] = nil
 end
 
-RegisterNetEvent('MrNewbsSpookySeason:Client:GhostHunting:RitualComplete', function(ghostId)
+RegisterNetEvent('MrNewbsSpookySeason:client:completedRitual', function(ghostId)
 	if source ~= 65535 then return end
 	if not ghostIds[ghostId] then return end
 	playGhostRitual(ghostId)

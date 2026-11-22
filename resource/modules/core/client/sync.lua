@@ -13,31 +13,31 @@ local function applyInit(payload)
 	removeAllSpookySeason()
 	RegisterSpookyDecorations()
 	RegisterSpookyShops()
-	if type(payload) ~= 'table' then return end
+	if not payload then return end
 	RegisterSpookyPumpkins(payload.pumpkins)
 	RegisterSpookyGraves(payload.graves)
 	RegisterSpookyGhostHunts(payload.ghostHunts)
 	RegisterSpookyTrickOrTreat(payload.trickOrTreat)
 end
 
-RegisterNetEvent('MrNewbsSpookySeason:Client:Initialize', function(payload)
+RegisterNetEvent('MrNewbsSpookySeason:client:initialized', function(payload)
 	if source ~= 65535 then return end
 	syncReceived = true
 	applyInit(payload)
 end)
 
-AddEventHandler('Newb_Bridge:client:playerLoad', function()
+AddEventHandler('Newb_Bridge:client:playerLoaded', function()
 	syncReceived = false
 	removeAllSpookySeason()
 end)
 
-AddEventHandler('Newb_Bridge:client:playerUnload', function()
+AddEventHandler('Newb_Bridge:client:playerUnloaded', function()
 	syncReceived = false
 	removeAllSpookySeason()
 end)
 
 AddEventHandler('onResourceStop', function(resourceName)
-	if GetCurrentResourceName() ~= resourceName then return end
+	if cache.resource ~= resourceName then return end
 	removeAllSpookySeason()
 end)
 

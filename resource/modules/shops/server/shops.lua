@@ -4,7 +4,7 @@ AddEventHandler('playerDropped', function()
 	lastPurchaseAt[source] = nil
 end)
 
-RegisterNetEvent('MrNewbsSpookySeason:Server:Shop:PurchaseItem', function(shopId, itemName, amount)
+RegisterNetEvent('MrNewbsSpookySeason:server:purchasedShopItem', function(shopId, itemName, amount)
 	local src = source
 	if type(shopId) ~= 'string' or shopId == '' or #shopId > 32 then return end
 	if type(itemName) ~= 'string' or itemName == '' or #itemName > 64 then return end
