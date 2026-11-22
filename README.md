@@ -1,12 +1,15 @@
 # MrNewb's Spooky Season
 
+![MrNewbSpookySeason](.github/assets/banner.webp)
+
 Halloween event: ghost hunts, pumpkin searches, grave digging, trick-or-treat, decorations, and an event-token shop.
 
-[Documentation](https://mrnewb.github.io/docs/mrnewbspookyseason) · [Install guide](https://mrnewb.github.io/docs/mrnewbspookyseason/install) · [Tebex](https://mrnewbscripts.tebex.io/) · [Discord](https://discord.gg/mrnewbscripts) · [Preview](https://www.youtube.com/watch?v=hi4yJjPZ7RE)
+[Documentation](https://mrnewb.github.io/docs/mrnewbspookyseason) · [Install guide](https://mrnewb.github.io/docs/mrnewbspookyseason/install) · [Tebex](https://mrnewbscripts.tebex.io/) · [Discord](https://discord.gg/mrnewbscripts) · [Short](https://www.youtube.com/shorts/JIHkxeJOPLc)
+
+<a href="https://www.youtube.com/shorts/JIHkxeJOPLc"><img src=".github/assets/short.webp" alt="MrNewbSpookySeason on YouTube Shorts" width="200"></a>
 
 Documentation is available at https://mrnewb.github.io/docs/
 
-[![MrNewbSpookySeason preview](https://img.youtube.com/vi/hi4yJjPZ7RE/hqdefault.jpg)](https://www.youtube.com/watch?v=hi4yJjPZ7RE)
 
 <img width="1920" alt="Spooky Season" src="https://github.com/user-attachments/assets/f26c2bbd-2d8f-40a7-8cec-2c5360a57c15" />
 <img width="1920" alt="Spooky Season shop" src="https://github.com/user-attachments/assets/f224813f-d213-40d7-9c9c-6ea3bf0e7e3f" />
