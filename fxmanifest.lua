@@ -53,7 +53,5 @@ dependencies {
 }
 
 escrow_ignore {
-	'resource/open/**/*.lua',
-	'locales/*.json',
-	'resource/**/*.lua',
+	'**/*',
 }
